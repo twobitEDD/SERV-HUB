@@ -1,0 +1,4285 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baf80d4963786f648a8a9d8c81ef7a13, type: 3}
+  m_Name: Localization Data
+  m_EditorClassIdentifier: 
+  data:
+  - Key: Main/AboutCalendar
+    Items:
+    - Language: 0
+      Translate: ...
+    - Language: 1
+      Translate: ...
+    - Language: 2
+      Translate: ...
+    - Language: 3
+      Translate: ...
+    - Language: 4
+      Translate: ...
+    - Language: 5
+      Translate: ...
+    - Language: 6
+      Translate: ...
+    - Language: 7
+      Translate: ...
+  - Key: Main/AcceptRemove
+    Items:
+    - Language: 0
+      Translate: Remove?
+    - Language: 1
+      Translate: "\u0423\u0434\u0430\u043B\u0438\u0442\u044C?"
+    - Language: 2
+      Translate: "Supprimer?\r"
+    - Language: 3
+      Translate: "L\xF6schen?\r"
+    - Language: 4
+      Translate: "Vuoi eliminare?\r"
+    - Language: 5
+      Translate: "Apagar?\r"
+    - Language: 6
+      Translate: "\xBFEliminar?\r"
+    - Language: 7
+      Translate: "Silinsin mi?\r"
+  - Key: Main/ActiveTasks
+    Items:
+    - Language: 0
+      Translate: Active tasks
+    - Language: 1
+      Translate: "\u0410\u043A\u0442\u0438\u0432\u043D\u044B\u0435 \u0437\u0430\u0434\u0430\u0447\u0438"
+    - Language: 2
+      Translate: "T\xE2ches actives"
+    - Language: 3
+      Translate: Aktive Aufgaben
+    - Language: 4
+      Translate: "Attivit\xE0 attive"
+    - Language: 5
+      Translate: Tarefas ativas
+    - Language: 6
+      Translate: Tareas activas
+    - Language: 7
+      Translate: "Aktif g\xF6revler"
+  - Key: Main/Activity
+    Items:
+    - Language: 0
+      Translate: Activity
+    - Language: 1
+      Translate: "\u0410\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u044C"
+    - Language: 2
+      Translate: "Activit\xE9\r"
+    - Language: 3
+      Translate: "Aktivit\xE4t"
+    - Language: 4
+      Translate: "Attivit\xE0"
+    - Language: 5
+      Translate: Atividade
+    - Language: 6
+      Translate: Actividad
+    - Language: 7
+      Translate: Etkinlik
+  - Key: Main/ActivityAreaFrequencyDescription
+    Items:
+    - Language: 0
+      Translate: The frequency is dynamically calculated based on the activity of
+        the last month.
+    - Language: 1
+      Translate: "\u0414\u0438\u043D\u0430\u043C\u0438\u0447\u0435\u0441\u043A\u0438
+        \u0440\u0430\u0441\u0441\u0447\u0438\u0442\u044B\u0432\u0430\u0435\u0442\u0441\u044F
+        \u043D\u0430 \u043E\u0441\u043D\u043E\u0432\u0430\u043D\u0438\u0438 \u0430\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0438
+        \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0435\u0433\u043E \u043C\u0435\u0441\u044F\u0446\u0430."
+    - Language: 2
+      Translate: "Calcul\xE9 dynamiquement en fonction de l'activit\xE9 du mois dernier."
+    - Language: 3
+      Translate: "Dynamisch berechnet, basierend auf der Aktivit\xE4t des letzten
+        Monats."
+    - Language: 4
+      Translate: "Calcolato dinamicamente in base all'attivit\xE0 del mese scorso."
+    - Language: 5
+      Translate: "Calculado dinamicamente com base na atividade do \xFAltimo m\xEAs."
+    - Language: 6
+      Translate: "Calculado din\xE1micamente en funci\xF3n de la actividad del \xFAltimo
+        mes."
+    - Language: 7
+      Translate: "Ge\xE7en ayki etkinli\u011Fe g\xF6re dinamik olarak hesapland\u0131."
+  - Key: Main/ActivityAreaInProgressDescription
+    Items:
+    - Language: 0
+      Translate: Active tasks in progress.
+    - Language: 1
+      Translate: "\u0410\u043A\u0442\u0438\u0432\u043D\u044B\u0435 \u0437\u0430\u0434\u0430\u0447\u0438
+        \u0432 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u0438."
+    - Language: 2
+      Translate: "T\xE2ches actives en cours."
+    - Language: 3
+      Translate: Aktive Aufgaben in Bearbeitung.
+    - Language: 4
+      Translate: "Attivit\xE0 attive in corso."
+    - Language: 5
+      Translate: Tarefas ativas em andamento.
+    - Language: 6
+      Translate: Tareas activas en progreso.
+    - Language: 7
+      Translate: "Devam eden aktif g\xF6revler."
+  - Key: Main/AddTask
+    Items:
+    - Language: 0
+      Translate: Add  task
+    - Language: 1
+      Translate: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u0437\u0430\u0434\u0430\u0447\u0443"
+    - Language: 2
+      Translate: "Ajouter une t\xE2che"
+    - Language: 3
+      Translate: "Aufgabe hinzuf\xFCgen"
+    - Language: 4
+      Translate: "Aggiungi attivit\xE0"
+    - Language: 5
+      Translate: Adicionar tarefa
+    - Language: 6
+      Translate: Agregar tarea
+    - Language: 7
+      Translate: "G\xF6rev ekle"
+  - Key: Main/AppName
+    Items:
+    - Language: 0
+      Translate: SERV HUB
+    - Language: 1
+      Translate: "SERV \u041F\u041E\u0420\u0422\u0410\u041B"
+    - Language: 2
+      Translate: SERV MOYEU
+    - Language: 3
+      Translate: SERV NABE
+    - Language: 4
+      Translate: SERV CENTRO
+    - Language: 5
+      Translate: SERV EIXO
+    - Language: 6
+      Translate: SERV CENTRO
+    - Language: 7
+      Translate: SERV MERKEZ
+  - Key: Main/Apply
+    Items:
+    - Language: 0
+      Translate: Apply
+    - Language: 1
+      Translate: "\u041F\u0440\u0438\u043C\u0435\u043D\u0438\u0442\u044C"
+    - Language: 2
+      Translate: Appliquer
+    - Language: 3
+      Translate: Anwenden
+    - Language: 4
+      Translate: Applicare
+    - Language: 5
+      Translate: Aplicar
+    - Language: 6
+      Translate: "Aplicar\r"
+    - Language: 7
+      Translate: "Uygula\r"
+  - Key: Main/Archive
+    Items:
+    - Language: 0
+      Translate: Archive
+    - Language: 1
+      Translate: "\u0410\u0440\u0445\u0438\u0432\u0438\u0440\u043E\u0432\u0430\u0442\u044C"
+    - Language: 2
+      Translate: Archiver
+    - Language: 3
+      Translate: Archiv
+    - Language: 4
+      Translate: Archivio
+    - Language: 5
+      Translate: Arquivar
+    - Language: 6
+      Translate: Archivo
+    - Language: 7
+      Translate: "Ar\u015Fiv"
+  - Key: Main/ArchivedTasks
+    Items:
+    - Language: 0
+      Translate: Completed tasks
+    - Language: 1
+      Translate: "\u0412\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u043D\u044B\u0435
+        \u0437\u0430\u0434\u0430\u0447\u0438"
+    - Language: 2
+      Translate: "T\xE2ches termin\xE9es"
+    - Language: 3
+      Translate: Erledigte Aufgaben
+    - Language: 4
+      Translate: "Attivit\xE0 completate"
+    - Language: 5
+      Translate: "Tarefas conclu\xEDdas"
+    - Language: 6
+      Translate: Tareas completadas
+    - Language: 7
+      Translate: "Tamamlanm\u0131\u015F g\xF6revler"
+  - Key: Main/AutoBackupPanelTitle
+    Items:
+    - Language: 0
+      Translate: Choose a day
+    - Language: 1
+      Translate: "\u0412\u044B\u0431\u0440\u0430\u0442\u044C \u0434\u0435\u043D\u044C"
+    - Language: 2
+      Translate: Choisir un jour
+    - Language: 3
+      Translate: "W\xE4hle einen Tag"
+    - Language: 4
+      Translate: Scegli un giorno
+    - Language: 5
+      Translate: Escolher um dia
+    - Language: 6
+      Translate: Elige un dia
+    - Language: 7
+      Translate: "Bir g\xFCn se\xE7in"
+  - Key: Main/BackToProgress
+    Items:
+    - Language: 0
+      Translate: To progress
+    - Language: 1
+      Translate: "\u041A \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044E"
+    - Language: 2
+      Translate: "Pour la mise en \u0153uvre"
+    - Language: 3
+      Translate: "F\xFCr die Umsetzung"
+    - Language: 4
+      Translate: Per l'implementazione
+    - Language: 5
+      Translate: "Para implementa\xE7\xE3o"
+    - Language: 6
+      Translate: "Para la implementaci\xF3n"
+    - Language: 7
+      Translate: "Uygulama i\xE7in"
+  - Key: Main/BackupOff
+    Items:
+    - Language: 0
+      Translate: Off
+    - Language: 1
+      Translate: "\u041E\u0442\u043A\u043B."
+    - Language: 2
+      Translate: De
+    - Language: 3
+      Translate: Aus
+    - Language: 4
+      Translate: Via
+    - Language: 5
+      Translate: Desligar
+    - Language: 6
+      Translate: Apagado
+    - Language: 7
+      Translate: "Kapal\u0131"
+  - Key: Main/ChooseIcon
+    Items:
+    - Language: 0
+      Translate: Select icon
+    - Language: 1
+      Translate: "\u041D\u0430\u0441\u0442\u0440\u043E\u0438\u0442\u044C \u0438\u043A\u043E\u043D\u043A\u0443"
+    - Language: 2
+      Translate: "Personnaliser l'ic\xF4ne"
+    - Language: 3
+      Translate: Symbol anpassen
+    - Language: 4
+      Translate: Icona personalizzata
+    - Language: 5
+      Translate: "\xCDcone Personalizar"
+    - Language: 6
+      Translate: Personalizar icono
+    - Language: 7
+      Translate: "Simgeyi \xF6zelle\u015Ftir"
+  - Key: Main/ChooseTaskType
+    Items:
+    - Language: 0
+      Translate: Choose task type
+    - Language: 1
+      Translate: "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0442\u0438\u043F
+        \u0437\u0430\u0434\u0430\u0447\u0438"
+    - Language: 2
+      Translate: "S\xE9lectionner le type de t\xE2che"
+    - Language: 3
+      Translate: "W\xE4hle den Aufgabentyp"
+    - Language: 4
+      Translate: "Seleziona il tipo di attivit\xE0"
+    - Language: 5
+      Translate: Selecionar tipo de tarefa
+    - Language: 6
+      Translate: Seleccionar tipo de tarea
+    - Language: 7
+      Translate: "G\xF6rev t\xFCr\xFCn\xFC se\xE7in"
+  - Key: Main/ClearDataAcceptTitle
+    Items:
+    - Language: 0
+      Translate: Clear?
+    - Language: 1
+      Translate: "\u041E\u0447\u0438\u0441\u0442\u0438\u0442\u044C?"
+    - Language: 2
+      Translate: Clair?
+    - Language: 3
+      Translate: Klar?
+    - Language: 4
+      Translate: E' chiaro?
+    - Language: 5
+      Translate: Limpar?
+    - Language: 6
+      Translate: "\xBFBorrar?"
+    - Language: 7
+      Translate: Silinsin mi?
+  - Key: Main/CloseAboutSeaCalendar
+    Items:
+    - Language: 0
+      Translate: Close
+    - Language: 1
+      Translate: "\u0417\u0430\u043A\u0440\u044B\u0442\u044C"
+    - Language: 2
+      Translate: Fermer
+    - Language: 3
+      Translate: "Schlie\xDFen"
+    - Language: 4
+      Translate: Vicino
+    - Language: 5
+      Translate: Fechar
+    - Language: 6
+      Translate: Cerca
+    - Language: 7
+      Translate: Kapat
+  - Key: Main/CreateBackupModuleDescription
+    Items:
+    - Language: 0
+      Translate: 'The file will be saved to the folder:
+
+        <b>"SeaTodo/Backups"</b>.'
+    - Language: 1
+      Translate: "\u0424\u0430\u0439\u043B \u0431\u0443\u0434\u0435\u0442 \u0441\u043E\u0445\u0440\u0430\u043D\u0435\u043D
+        \u0432 \u043F\u0430\u043F\u043A\u0443:\n<b>\"SeaTodo/Backups\"</b>."
+    - Language: 2
+      Translate: "Le fichier sera enregistr\xE9 dans le dossier:\n<b>\"SeaTodo/Backups\"</b>."
+    - Language: 3
+      Translate: 'Die Datei wird im Ordner gespeichert:
+
+        <b>"SeaTodo/Backups"</b>.'
+    - Language: 4
+      Translate: "Il file verr\xE0 salvato nella cartella:\n<b>\"SeaTodo/Backups\"</b>."
+    - Language: 5
+      Translate: "O arquivo \xE9 guardado na pasta:\n<b>\"SeaTodo/Backups\"</b>."
+    - Language: 6
+      Translate: "El archivo se guardar\xE1 en la carpeta:\n<b>\"SeaTodo/Backups\"</b>."
+    - Language: 7
+      Translate: "Dosyan\u0131n kaydedildi\u011Fi klas\xF6r:\n<b>\"SeaTodo/Backups\"</b>."
+  - Key: Main/CreateBackupModuleTitle
+    Items:
+    - Language: 0
+      Translate: Create backup
+    - Language: 1
+      Translate: "\u0421\u043E\u0437\u0434\u0430\u0442\u044C \u0440\u0435\u0437\u0435\u0440\u0432\u043D\u0443\u044E
+        \u043A\u043E\u043F\u0438\u044E"
+    - Language: 2
+      Translate: "Cr\xE9er une sauvegarde"
+    - Language: 3
+      Translate: Erstelle ein Backup
+    - Language: 4
+      Translate: Effettua un backup
+    - Language: 5
+      Translate: "Fazer uma c\xF3pia de seguran\xE7a"
+    - Language: 6
+      Translate: Crea una copia de seguridad
+    - Language: 7
+      Translate: "Yedek olu\u015Ftur"
+  - Key: Main/CreateBackupResultFailed
+    Items:
+    - Language: 0
+      Translate: Failed to create the file.
+    - Language: 1
+      Translate: "\u041D\u0435 \u0443\u0434\u0430\u043B\u043E\u0441\u044C \u0441\u043E\u0437\u0434\u0430\u0442\u044C
+        \u0444\u0430\u0439\u043B."
+    - Language: 2
+      Translate: "La cr\xE9ation du fichier a \xE9chou\xE9."
+    - Language: 3
+      Translate: Erstellen der Datei fehlgeschlagen.
+    - Language: 4
+      Translate: Creazione del file non riuscita.
+    - Language: 5
+      Translate: Falha ao criar ficheiro.
+    - Language: 6
+      Translate: "Error en la creaci\xF3n del archivo."
+    - Language: 7
+      Translate: "Dosya olu\u015Fturulamad\u0131."
+  - Key: Main/CreateBackupResultSuccess
+    Items:
+    - Language: 0
+      Translate: 'The file was created in the folder:
+
+        <b>"SeaTodo/Backups"</b>.'
+    - Language: 1
+      Translate: "\u0424\u0430\u0439\u043B \u0431\u044B\u043B \u0441\u043E\u0437\u0434\u0430\u043D
+        \u0432 \u043F\u0430\u043F\u043A\u0435:\n<b>\"SeaTodo/Backups\"</b>."
+    - Language: 2
+      Translate: "Le fichier a \xE9t\xE9 cr\xE9\xE9 dans le dossier:\n<b>\"SeaTodo/Backups\"</b>."
+    - Language: 3
+      Translate: 'Die Datei wurde im Ordner erstellt:
+
+        <b>"SeaTodo/Backups"</b>.'
+    - Language: 4
+      Translate: "Il file \xE8 stato creato nella cartella:\n<b>\"SeaTodo/Backups\"</b>."
+    - Language: 5
+      Translate: 'O ficheiro foi criado na pasta:
+
+        <b>"SeaTodo/Backups"</b>.'
+    - Language: 6
+      Translate: 'El archivo de ha guardado en la carpeta:
+
+        <b>"SeaTodo/Backups"</b>.'
+    - Language: 7
+      Translate: "Dosya olu\u015Fturuldu\u011Fu klas\xF6r:\n<b>\"SeaTodo/Backups\"</b>."
+  - Key: Main/CreateFlowRemindersDescription
+    Items:
+    - Language: 0
+      Translate: Select the days of the week and the time when you want to get reminders.
+    - Language: 1
+      Translate: "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u043D\u0438
+        \u043D\u0435\u0434\u0435\u043B\u0438 \u0438 \u0432\u0440\u0435\u043C\u044F
+        \u043F\u043E\u043B\u0443\u0447\u0435\u043D\u0438\u044F \u043D\u0430\u043F\u043E\u043C\u0438\u043D\u0430\u043D\u0438\u0439."
+    - Language: 2
+      Translate: "S\xE9lectionner les jours de la semaine et le moment de r\xE9ception
+        des rappels."
+    - Language: 3
+      Translate: "W\xE4hle die Wochentage und den Zeitpunkt aus, an dem du Erinnerungen
+        erhalten m\xF6chtest."
+    - Language: 4
+      Translate: Seleziona i giorni della settimana e quando ricevere promemoria.
+    - Language: 5
+      Translate: Selecione os dias da semana e quando receber lembretes.
+    - Language: 6
+      Translate: "Seleccione los d\xEDas de la semana y cu\xE1ndo recibir recordatorios."
+    - Language: 7
+      Translate: "Hat\u0131rlatmalar\u0131n al\u0131naca\u011F\u0131 haftan\u0131n
+        g\xFCnlerini ve saatlerini se\xE7in."
+  - Key: Main/CreateFlowTitleReminders
+    Items:
+    - Language: 0
+      Translate: Set up reminders
+    - Language: 1
+      Translate: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u0442\u0435 \u043D\u0430\u043F\u043E\u043C\u0438\u043D\u0430\u043D\u0438\u044F"
+    - Language: 2
+      Translate: Configurer des rappels
+    - Language: 3
+      Translate: Erinnerungen einrichten
+    - Language: 4
+      Translate: Imposta promemoria
+    - Language: 5
+      Translate: Configurar lembretes
+    - Language: 6
+      Translate: Configurar recordatorios
+    - Language: 7
+      Translate: "Hat\u0131rlatmalar\u0131 ayarlay\u0131n"
+  - Key: Main/CreateFlowTypeDescription
+    Items:
+    - Language: 0
+      Translate: 'Select goal/size of the task.
+
+        These are usually units
+        of measurement for each day.'
+    - Language: 1
+      Translate: "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0446\u0435\u043B\u044C/\u0432\u0435\u043B\u0438\u0447\u0438\u043D\u0443
+        \u0437\u0430\u0434\u0430\u0447\u0438.\n\u041E\u0431\u044B\u0447\u043D\u043E
+        \u044D\u0442\u043E \u0435\u0434\u0438\u043D\u0438\u0446\u044B \u0438\u0437\u043C\u0435\u0440\u0435\u043D\u0438\u044F
+        \u0434\u043B\u044F \u043A\u0430\u0436\u0434\u043E\u0433\u043E \u0434\u043D\u044F."
+    - Language: 2
+      Translate: "Choisir l'objectif, la taille de la t\xE2che. Il y a g\xE9n\xE9ralement
+        des unit\xE9s de mesure pour chaque jour."
+    - Language: 3
+      Translate: "W\xE4hle das Ziel, die Gr\xF6\xDFe der Aufgabe. Dies sind normalerweise
+        Ma\xDFeinheiten f\xFCr jeden Tag."
+    - Language: 4
+      Translate: "Scegli l'obiettivo, la dimensione dell'attivit\xE0. Solitamente
+        si tratta di unit\xE0 di misura per ogni giorno."
+    - Language: 5
+      Translate: "Escolha o objetivo, a dimens\xE3o da tarefa. Estas s\xE3o habitualmente
+        unidades de medida para cada dia."
+    - Language: 6
+      Translate: "Elija el objetivo, el tama\xF1o de la tarea.\nSuelen ser unidades
+        de medida para cada d\xEDa."
+    - Language: 7
+      Translate: "Hedefi, g\xF6rev b\xFCy\xFCkl\xFC\u011F\xFCn\xFC se\xE7in.\nBunlar
+        genellikle her g\xFCn i\xE7in \xF6l\xE7\xFCm birimleridir."
+  - Key: Main/CreateTask
+    Items:
+    - Language: 0
+      Translate: Create task
+    - Language: 1
+      Translate: "\u0421\u043E\u0437\u0434\u0430\u0442\u044C \u0437\u0430\u0434\u0430\u0447\u0443"
+    - Language: 2
+      Translate: "Cr\xE9er une t\xE2che"
+    - Language: 3
+      Translate: Aufgabe erstellen
+    - Language: 4
+      Translate: "Crea attivit\xE0"
+    - Language: 5
+      Translate: Criar tarefa
+    - Language: 6
+      Translate: Crear tarea
+    - Language: 7
+      Translate: "G\xF6rev olu\u015Ftur"
+  - Key: Main/Day
+    Items:
+    - Language: 0
+      Translate: Day
+    - Language: 1
+      Translate: "\u0414\u0435\u043D\u044C"
+    - Language: 2
+      Translate: "Journ\xE9e"
+    - Language: 3
+      Translate: Tag
+    - Language: 4
+      Translate: Giorno
+    - Language: 5
+      Translate: Dia
+    - Language: 6
+      Translate: "D\xEDa"
+    - Language: 7
+      Translate: "G\xFCn"
+  - Key: Main/DayOfRest
+    Items:
+    - Language: 0
+      Translate: day of rest
+    - Language: 1
+      Translate: "\u0434\u0435\u043D\u044C \u043E\u0442\u0434\u044B\u0445\u0430"
+    - Language: 2
+      Translate: jour de repos
+    - Language: 3
+      Translate: ruhetag
+    - Language: 4
+      Translate: giorno di riposo
+    - Language: 5
+      Translate: dia de descanso
+    - Language: 6
+      Translate: "d\xEDa de descanso"
+    - Language: 7
+      Translate: "i\u0307zinli g\xFCnler"
+  - Key: Main/DayOffPanelTitle
+    Items:
+    - Language: 0
+      Translate: Day of rest
+    - Language: 1
+      Translate: "\u0414\u0435\u043D\u044C \u043E\u0442\u0434\u044B\u0445\u0430"
+    - Language: 2
+      Translate: Jour de repos
+    - Language: 3
+      Translate: Ruhetag
+    - Language: 4
+      Translate: Giorno di riposo
+    - Language: 5
+      Translate: Dia de descanso
+    - Language: 6
+      Translate: "D\xEDa de descanso"
+    - Language: 7
+      Translate: "\u0130zinli g\xFCnler"
+  - Key: Main/Days
+    Items:
+    - Language: 0
+      Translate: Days
+    - Language: 1
+      Translate: "\u0414\u043D\u0438"
+    - Language: 2
+      Translate: "Journ\xE9es"
+    - Language: 3
+      Translate: Tage
+    - Language: 4
+      Translate: Giorni
+    - Language: 5
+      Translate: Dias
+    - Language: 6
+      Translate: "D\xEDas"
+    - Language: 7
+      Translate: "G\xFCnler"
+  - Key: Main/DaysLeft
+    Items:
+    - Language: 0
+      Translate: 'Days left:'
+    - Language: 1
+      Translate: "\u041E\u0441\u0442\u0430\u043B\u043E\u0441\u044C \u0434\u043D\u0435\u0439:"
+    - Language: 2
+      Translate: 'Jours restants:'
+    - Language: 3
+      Translate: "Tage \xFCbrig:"
+    - Language: 4
+      Translate: 'Giorni rimasti:'
+    - Language: 5
+      Translate: 'Dias restantes:'
+    - Language: 6
+      Translate: "D\xEDas restantes:"
+    - Language: 7
+      Translate: "Kalan g\xFCn say\u0131s\u0131:"
+  - Key: Main/Default
+    Items:
+    - Language: 0
+      Translate: Default
+    - Language: 1
+      Translate: "\u041F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E"
+    - Language: 2
+      Translate: "D\xE9faut"
+    - Language: 3
+      Translate: Standard
+    - Language: 4
+      Translate: Predefinito
+    - Language: 5
+      Translate: "Padr\xE3o"
+    - Language: 6
+      Translate: Predeterminado
+    - Language: 7
+      Translate: "Varsay\u0131lan"
+  - Key: Main/DefaultTitle
+    Items:
+    - Language: 0
+      Translate: Main title
+    - Language: 1
+      Translate: "\u0413\u043B\u0430\u0432\u043D\u043E\u0435 \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u0435"
+    - Language: 2
+      Translate: Titre principal
+    - Language: 3
+      Translate: "\xDCberschrift"
+    - Language: 4
+      Translate: Titolo principale
+    - Language: 5
+      Translate: "T\xEDtulo principal"
+    - Language: 6
+      Translate: Titulo principal
+    - Language: 7
+      Translate: "Ana ba\u015Fl\u0131k"
+  - Key: Main/Empty
+    Items:
+    - Language: 0
+      Translate: Empty
+    - Language: 1
+      Translate: "\u041F\u0443\u0441\u0442\u043E"
+    - Language: 2
+      Translate: Vide
+    - Language: 3
+      Translate: Leer
+    - Language: 4
+      Translate: Vuoto
+    - Language: 5
+      Translate: Vazio
+    - Language: 6
+      Translate: "Vac\xEDo"
+    - Language: 7
+      Translate: "Bo\u015F"
+  - Key: Main/EstimatedFinishDate
+    Items:
+    - Language: 0
+      Translate: Expiration date
+    - Language: 1
+      Translate: "\u0414\u0430\u0442\u0430 \u043E\u043A\u043E\u043D\u0447\u0430\u043D\u0438\u044F"
+    - Language: 2
+      Translate: Date d'expiration
+    - Language: 3
+      Translate: Ablaufdatum
+    - Language: 4
+      Translate: Data di scadenza
+    - Language: 5
+      Translate: Data de validade
+    - Language: 6
+      Translate: Fecha de caducidad
+    - Language: 7
+      Translate: Son tamamlama tarihi
+  - Key: Main/FirstDayOfWeekPanelTitle
+    Items:
+    - Language: 0
+      Translate: Beginning of the week
+    - Language: 1
+      Translate: "\u041D\u0430\u0447\u0430\u043B\u043E \u043D\u0435\u0434\u0435\u043B\u0438"
+    - Language: 2
+      Translate: "D\xE9but de la semaine"
+    - Language: 3
+      Translate: Anfang der Woche
+    - Language: 4
+      Translate: Inizio della settimana
+    - Language: 5
+      Translate: "In\xEDcio da semana"
+    - Language: 6
+      Translate: Inicio de la semana
+    - Language: 7
+      Translate: "Haftan\u0131n ba\u015F\u0131"
+  - Key: Main/FlowAreaEstimatedDateDescription
+    Items:
+    - Language: 0
+      Translate: Dynamically calculated based on activity.
+    - Language: 1
+      Translate: "\u0414\u0438\u043D\u0430\u043C\u0438\u0447\u0435\u0441\u043A\u0438
+        \u0440\u0430\u0441\u0441\u0447\u0438\u0442\u044B\u0432\u0430\u0435\u0442\u0441\u044F
+        \u043D\u0430 \u043E\u0441\u043D\u043E\u0432\u0430\u043D\u0438\u0438 \u0430\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0438."
+    - Language: 2
+      Translate: "Calcul\xE9 dynamiquement en fonction de l'activit\xE9."
+    - Language: 3
+      Translate: "Dynamisch berechnet, basierend auf der Aktivit\xE4t."
+    - Language: 4
+      Translate: "Calcolato dinamicamente in base all'attivit\xE0."
+    - Language: 5
+      Translate: Calculado dinamicamente com base na atividade.
+    - Language: 6
+      Translate: "Calculado din\xE1micamente en funci\xF3n de la actividad."
+    - Language: 7
+      Translate: "Etkinli\u011Fe g\xF6re dinamik olarak hesaplan\u0131r."
+  - Key: Main/FlowAreaFinishedInfo
+    Items:
+    - Language: 0
+      Translate: 'Total: <b>{0}</b>'
+    - Language: 1
+      Translate: "\u0412\u0441\u0435\u0433\u043E: <b>{0}</b>"
+    - Language: 2
+      Translate: 'Total: <b>{0}</b>'
+    - Language: 3
+      Translate: 'Gesamt: <b>{0}</b>'
+    - Language: 4
+      Translate: 'Totale: <b>{0}</b>'
+    - Language: 5
+      Translate: 'Total: <b>{0}</b>'
+    - Language: 6
+      Translate: 'Total: <b>{0}</b>'
+    - Language: 7
+      Translate: 'Toplam: <b>{0}</b>'
+  - Key: Main/FlowAreaInProgressDescription
+    Items:
+    - Language: 0
+      Translate: The progress towards the goal for the entire period of time.
+    - Language: 1
+      Translate: "\u0425\u043E\u0434 \u043F\u0440\u043E\u0434\u0432\u0438\u0436\u0435\u043D\u0438\u044F
+        \u043A \u0446\u0435\u043B\u0438 \u0437\u0430 \u0432\u0435\u0441\u044C \u043F\u0435\u0440\u0438\u043E\u0434
+        \u0432\u0440\u0435\u043C\u0435\u043D\u0438."
+    - Language: 2
+      Translate: "La progression vers l'objectif pendant toute la dur\xE9e."
+    - Language: 3
+      Translate: "Der Fortschritt zum Ziel, f\xFCr den gesamten Zeitraum."
+    - Language: 4
+      Translate: Progressi verso l'obiettivo per l'intero periodo di tempo.
+    - Language: 5
+      Translate: "O progresso em dire\xE7\xE3o ao objetivo para todo o per\xEDodo."
+    - Language: 6
+      Translate: "El progreso hacia la meta durante todo el per\xEDodo de tiempo."
+    - Language: 7
+      Translate: "T\xFCm s\xFCre boyunca hedefe do\u011Fru ilerleme."
+  - Key: Main/FlowAreaRemindersDescription
+    Items:
+    - Language: 0
+      Translate: Overview of reminders during the week.
+    - Language: 1
+      Translate: "\u041E\u0431\u0437\u043E\u0440 \u043D\u0430\u043F\u043E\u043C\u0438\u043D\u0430\u043D\u0438\u0439
+        \u0432 \u0442\u0435\u0447\u0435\u043D\u0438\u0438 \u043D\u0435\u0434\u0435\u043B\u0438."
+    - Language: 2
+      Translate: Revue des rappels tout au long de la semaine.
+    - Language: 3
+      Translate: "\xDCberpr\xFCfung der Erinnerungen w\xE4hrend der Woche."
+    - Language: 4
+      Translate: Rivedi i promemoria per tutta la settimana.
+    - Language: 5
+      Translate: "Revis\xE3o de lembretes ao longo da semana."
+    - Language: 6
+      Translate: "Revisi\xF3n de recordatorios a lo largo de la semana."
+    - Language: 7
+      Translate: "Hafta boyunca hat\u0131rlat\u0131c\u0131lar\u0131n g\xF6zden ge\xE7irilmesi."
+  - Key: Main/FlowAreaStatisticsDescription
+    Items:
+    - Language: 0
+      Translate: Overview of daily progress for each month.
+    - Language: 1
+      Translate: "\u041E\u0431\u0437\u043E\u0440 \u0435\u0436\u0435\u0434\u043D\u0435\u0432\u043D\u043E\u0433\u043E
+        \u043F\u0440\u043E\u0433\u0440\u0435\u0441\u0441\u0430 \u0434\u043B\u044F
+        \u043A\u0430\u0436\u0434\u043E\u0433\u043E \u043C\u0435\u0441\u044F\u0446\u0430."
+    - Language: 2
+      Translate: "Bilan des progr\xE8s quotidiens pour chaque mois."
+    - Language: 3
+      Translate: "\xDCberpr\xFCfe den t\xE4glichen Fortschritt f\xFCr jeden Monat."
+    - Language: 4
+      Translate: Controlla i progressi giornalieri per ogni mese.
+    - Language: 5
+      Translate: "Verificar o progresso di\xE1rio para cada m\xEAs."
+    - Language: 6
+      Translate: "Revisi\xF3n del progreso diario de cada mes."
+    - Language: 7
+      Translate: "Her ay i\xE7in g\xFCnl\xFCk ilerlemenin g\xF6zden ge\xE7irilmesi."
+  - Key: Main/FlowTypeCount
+    Items:
+    - Language: 0
+      Translate: Count
+    - Language: 1
+      Translate: "\u0427\u0438\u0441\u043B\u043E"
+    - Language: 2
+      Translate: Nombre
+    - Language: 3
+      Translate: Nummer
+    - Language: 4
+      Translate: Numero
+    - Language: 5
+      Translate: "N\xFAmero"
+    - Language: 6
+      Translate: "N\xFAmero"
+    - Language: 7
+      Translate: "Say\u0131"
+  - Key: Main/FlowTypeCountDescription
+    Items:
+    - Language: 0
+      Translate: Mark the progress of the day with a number.
+    - Language: 1
+      Translate: "\u041E\u0442\u043C\u0435\u0447\u0430\u0442\u044C \u043F\u0440\u043E\u0433\u0440\u0435\u0441\u0441
+        \u0434\u043D\u044F \u0447\u0438\u0441\u043B\u043E\u043C."
+    - Language: 2
+      Translate: "Marquer la progression de la journ\xE9e avec un chiffre."
+    - Language: 3
+      Translate: Markiere den Fortschritt des Tages mit einer Zahl.
+    - Language: 4
+      Translate: Contrassegna il progresso giornaliero con un numero.
+    - Language: 5
+      Translate: "Marcar o progresso do dia com um n\xFAmero."
+    - Language: 6
+      Translate: "Marque el progreso del d\xEDa con un n\xFAmero."
+    - Language: 7
+      Translate: "G\xFCn\xFCn ilerlemesini bir say\u0131yla i\u015Faretleyin."
+  - Key: Main/FlowTypeDays
+    Items:
+    - Language: 0
+      Translate: Days
+    - Language: 1
+      Translate: "\u0414\u043D\u0438"
+    - Language: 2
+      Translate: "Journ\xE9es\r"
+    - Language: 3
+      Translate: Tage
+    - Language: 4
+      Translate: Giorni
+    - Language: 5
+      Translate: Dias
+    - Language: 6
+      Translate: "D\xEDas"
+    - Language: 7
+      Translate: "G\xFCnler"
+  - Key: Main/FlowTypeDaysDescription
+    Items:
+    - Language: 0
+      Translate: 'Mark progress by the hours.
+
+        Example: 1d 3h'
+    - Language: 1
+      Translate: "\u041E\u0442\u043C\u0435\u0447\u0430\u0442\u044C \u043F\u0440\u043E\u0433\u0440\u0435\u0441\u0441
+        \u043F\u043E \u0447\u0430\u0441\u0430\u043C.\n\u041F\u0440\u0438\u043C\u0435\u0440:
+        1\u0434 3\u0447"
+    - Language: 2
+      Translate: "Suivre les progr\xE8s \xE0 l'heure.\nExemple: 1j 3h"
+    - Language: 3
+      Translate: 'Verfolge den Fortschritt stundenweise.
+
+        Beispiel: 1t 3s'
+    - Language: 4
+      Translate: 'Tieni traccia dei progressi di ora in ora.
+
+        Esempio: 1g
+        3o'
+    - Language: 5
+      Translate: 'Acompanhar o progresso por hora.
+
+        Exemplo: 1d 3h'
+    - Language: 6
+      Translate: 'Siga el progreso por hora.
+
+        Ejemplo: 1d 3h'
+    - Language: 7
+      Translate: "\u0130lerlemeyi saat baz\u0131nda takip edin.\n\xD6rnek: 1g 3sa"
+  - Key: Main/FlowTypeDone
+    Items:
+    - Language: 0
+      Translate: Done
+    - Language: 1
+      Translate: "\u0412\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u043E"
+    - Language: 2
+      Translate: "Ex\xE9cut\xE9"
+    - Language: 3
+      Translate: "Durchgef\xFChrt"
+    - Language: 4
+      Translate: Eseguito
+    - Language: 5
+      Translate: Realizado
+    - Language: 6
+      Translate: Realizado
+    - Language: 7
+      Translate: "Ger\xE7ekle\u015Ftirildi"
+  - Key: Main/FlowTypeDoneDescription
+    Items:
+    - Language: 0
+      Translate: "Mark daily: \ncompleted / missed"
+    - Language: 1
+      Translate: "\u041E\u0442\u043C\u0435\u0447\u0430\u0442\u044C \u0435\u0436\u0435\u0434\u043D\u0435\u0432\u043D\u043E:
+        \n\u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u043E / \u043F\u0440\u043E\u043F\u0443\u0449\u0435\u043D\u043E"
+    - Language: 2
+      Translate: "C\xE9l\xE9brer tous les jours: \ntermin\xE9 / manqu\xE9"
+    - Language: 3
+      Translate: "T\xE4glich feiern: \nabgeschlossen / verpasst"
+    - Language: 4
+      Translate: "Festeggia ogni giorno: \ncompletato / non riuscito"
+    - Language: 5
+      Translate: "Celebrar diariamente: \nconclu\xEDdo / perdido"
+    - Language: 6
+      Translate: "Celebre diariamente: \ncompletado / perdido"
+    - Language: 7
+      Translate: "G\xFCnl\xFCk sonu\xE7lar: \ntamamland\u0131 / yap\u0131lamad\u0131"
+  - Key: Main/FlowTypeHours
+    Items:
+    - Language: 0
+      Translate: Hours
+    - Language: 1
+      Translate: "\u0427\u0430\u0441\u044B"
+    - Language: 2
+      Translate: Horloge
+    - Language: 3
+      Translate: "Uhr\r"
+    - Language: 4
+      Translate: Orologio
+    - Language: 5
+      Translate: "Rel\xF3gio"
+    - Language: 6
+      Translate: Reloj
+    - Language: 7
+      Translate: Saat
+  - Key: Main/FlowTypeHoursDescription
+    Items:
+    - Language: 0
+      Translate: 'Track progress by minutes.
+
+        Example: 1h 10m'
+    - Language: 1
+      Translate: "\u041E\u0442\u043C\u0435\u0447\u0430\u0442\u044C \u043F\u0440\u043E\u0433\u0440\u0435\u0441\u0441
+        \u043F\u043E \u043C\u0438\u043D\u0443\u0442\u0430\u043C.\n\u041F\u0440\u0438\u043C\u0435\u0440:
+        1\u0447 10\u043C"
+    - Language: 2
+      Translate: "Suivre les progr\xE8s par minute.\nExemple: 1h 10m"
+    - Language: 3
+      Translate: 'Verfolge den Fortschritt pro Minute.
+
+        Beispiel: 1s 10m'
+    - Language: 4
+      Translate: 'Tieni traccia dei progressi per minuto.
+
+        Esempio: 1o 10m'
+    - Language: 5
+      Translate: 'Acompanhar o progresso por minuto.
+
+        Exemplo: 1h 10m'
+    - Language: 6
+      Translate: 'Siga el progreso por minuto.
+
+        Ejemplo: 1h 10m'
+    - Language: 7
+      Translate: "\u0130lerlemeyi dakika baz\u0131nda takip edin.\n\xD6rnek: 1sa
+        10d"
+  - Key: Main/FlowTypeMinutes
+    Items:
+    - Language: 0
+      Translate: Minutes
+    - Language: 1
+      Translate: "\u041C\u0438\u043D\u0443\u0442\u044B"
+    - Language: 2
+      Translate: Minutes
+    - Language: 3
+      Translate: Minuten
+    - Language: 4
+      Translate: Minuti
+    - Language: 5
+      Translate: Minutos
+    - Language: 6
+      Translate: Minutos
+    - Language: 7
+      Translate: Dakika
+  - Key: Main/FlowTypeMinutesDescription
+    Items:
+    - Language: 0
+      Translate: 'Track progress by seconds.
+
+        Example: 1m 30s'
+    - Language: 1
+      Translate: "\u041E\u0442\u043C\u0435\u0447\u0430\u0442\u044C \u043F\u0440\u043E\u0433\u0440\u0435\u0441\u0441
+        \u043F\u043E \u0441\u0435\u043A\u0443\u043D\u0434\u0430\u043C.\n\u041F\u0440\u0438\u043C\u0435\u0440:
+        1\u043C 30\u0441"
+    - Language: 2
+      Translate: "Suivre les progr\xE8s en quelques secondes.\nExemple: 1m 30s"
+    - Language: 3
+      Translate: 'Verfolge den Fortschritt in Sekunden.
+
+        Beispiel: 1m 30s'
+    - Language: 4
+      Translate: 'Tieni traccia dei progressi in pochi secondi.
+
+        Esempio:
+        1m 30s'
+    - Language: 5
+      Translate: 'Acompanhar o progresso em segundos.
+
+        Exemplo: 1m 30s'
+    - Language: 6
+      Translate: 'Siga el progreso por segundos.
+
+        Ejemplo: 1m 30s'
+    - Language: 7
+      Translate: "\u0130lerlemeyi saniye saniye izleyin.\n\xD6rnek: 1d 30sn"
+  - Key: Main/FlowTypeSeconds
+    Items:
+    - Language: 0
+      Translate: Seconds
+    - Language: 1
+      Translate: "\u0421\u0435\u043A\u0443\u043D\u0434\u044B"
+    - Language: 2
+      Translate: Secondes
+    - Language: 3
+      Translate: Sekunden
+    - Language: 4
+      Translate: Secondi
+    - Language: 5
+      Translate: Segundos
+    - Language: 6
+      Translate: Segundos
+    - Language: 7
+      Translate: Saniye
+  - Key: Main/FlowTypeStars
+    Items:
+    - Language: 0
+      Translate: Stars
+    - Language: 1
+      Translate: "\u0420\u0435\u0439\u0442\u0438\u043D\u0433"
+    - Language: 2
+      Translate: "\xC9valuation"
+    - Language: 3
+      Translate: Bewertung
+    - Language: 4
+      Translate: Valutazione
+    - Language: 5
+      Translate: "Avalia\xE7\xE3o"
+    - Language: 6
+      Translate: "Clasificaci\xF3n"
+    - Language: 7
+      Translate: "De\u011Ferlendirme"
+  - Key: Main/FlowTypeStarsDescription
+    Items:
+    - Language: 0
+      Translate: Mark progress with a score of 0 to 5.
+    - Language: 1
+      Translate: "\u041E\u0442\u043C\u0435\u0447\u0430\u0442\u044C \u043F\u0440\u043E\u0433\u0440\u0435\u0441\u0441
+        \u043E\u0446\u0435\u043D\u043A\u043E\u0439 \u043E\u0442 0 \u0434\u043E 5."
+    - Language: 2
+      Translate: "Marquer les progr\xE8s avec un score de 0 \xE0 5."
+    - Language: 3
+      Translate: Markiere den Fortschritt mit einer Punktzahl von 0 bis 5.
+    - Language: 4
+      Translate: Contrassegna i progressi con un punteggio da 0 a 5.
+    - Language: 5
+      Translate: "Marcar o progresso com uma pontua\xE7\xE3o de 0 a 5."
+    - Language: 6
+      Translate: "Marque el progreso con una puntuaci\xF3n de 0 a 5."
+    - Language: 7
+      Translate: "\u0130lerlemeyi 0 ile 5 aras\u0131nda puanla i\u015Faretleyin."
+  - Key: Main/Frequency
+    Items:
+    - Language: 0
+      Translate: Frequency
+    - Language: 1
+      Translate: "\u0427\u0430\u0441\u0442\u043E\u0442\u0430"
+    - Language: 2
+      Translate: "Fr\xE9quence"
+    - Language: 3
+      Translate: Frequenz
+    - Language: 4
+      Translate: Frequenza
+    - Language: 5
+      Translate: "Frequ\xEAncia"
+    - Language: 6
+      Translate: Frecuencia
+    - Language: 7
+      Translate: "S\u0131kl\u0131k"
+  - Key: Main/InProgress
+    Items:
+    - Language: 0
+      Translate: Current tasks
+    - Language: 1
+      Translate: "\u0422\u0435\u043A\u0443\u0449\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438"
+    - Language: 2
+      Translate: "T\xE2ches actuelles"
+    - Language: 3
+      Translate: Aktuelle Aufgaben
+    - Language: 4
+      Translate: "Attivit\xE0 attuali"
+    - Language: 5
+      Translate: Tarefas atuais
+    - Language: 6
+      Translate: Tareas actuales
+    - Language: 7
+      Translate: "Mevcut g\xF6revler"
+  - Key: Main/LanguageName
+    Items:
+    - Language: 0
+      Translate: English
+    - Language: 1
+      Translate: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+    - Language: 2
+      Translate: "Fran\xE7ais"
+    - Language: 3
+      Translate: Deutsche
+    - Language: 4
+      Translate: Italiano
+    - Language: 5
+      Translate: "Portugu\xEAs"
+    - Language: 6
+      Translate: "Espa\xF1ol"
+    - Language: 7
+      Translate: "T\xFCrk"
+  - Key: Main/LanguagePanelTitle
+    Items:
+    - Language: 0
+      Translate: Select language
+    - Language: 1
+      Translate: "\u0412\u044B\u0431\u0440\u0430\u0442\u044C \u044F\u0437\u044B\u043A"
+    - Language: 2
+      Translate: Choisir la langue
+    - Language: 3
+      Translate: "Sprache ausw\xE4hlen"
+    - Language: 4
+      Translate: Scegli lingua
+    - Language: 5
+      Translate: Selecionar o idioma
+    - Language: 6
+      Translate: Seleccione el idioma
+    - Language: 7
+      Translate: "Dil se\xE7in"
+  - Key: Main/LoadBackupAcceptTitle
+    Items:
+    - Language: 0
+      Translate: Restore
+    - Language: 1
+      Translate: "\u0412\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u044C"
+    - Language: 2
+      Translate: Restaurer
+    - Language: 3
+      Translate: Wiederherstellen
+    - Language: 4
+      Translate: Ripristinare
+    - Language: 5
+      Translate: Restaurar
+    - Language: 6
+      Translate: Restaurar
+    - Language: 7
+      Translate: "Tekrar y\xFCkle"
+  - Key: Main/LoadBackupModuleDescription
+    Items:
+    - Language: 0
+      Translate: 'Folder path: <b>SeaTodo/Backups</b>'
+    - Language: 1
+      Translate: "\u041F\u0443\u0442\u044C \u043F\u0430\u043F\u043A\u0438: <b>SeaTodo/Backups</b>"
+    - Language: 2
+      Translate: 'Chemin du dossier: <b>SeaTodo/Backups</b>'
+    - Language: 3
+      Translate: 'Ordnerpfad: <b>SeaTodo/Backups</b>'
+    - Language: 4
+      Translate: 'Percorso cartella: <b>SeaTodo/Backups</b>'
+    - Language: 5
+      Translate: 'Percurso da pasta: <b>SeaTodo/Backups</b>'
+    - Language: 6
+      Translate: 'Ruta de la carpeta: <b>SeaTodo/Backups</b>'
+    - Language: 7
+      Translate: "Klas\xF6r yolu: <b>SeaTodo/Backups</b>"
+  - Key: Main/LoadBackupModuleTitle
+    Items:
+    - Language: 0
+      Translate: Select a backup
+    - Language: 1
+      Translate: "\u0412\u044B\u0431\u0440\u0430\u0442\u044C \u0440\u0435\u0437\u0435\u0440\u0432\u043D\u0443\u044E
+        \u043A\u043E\u043F\u0438\u044E"
+    - Language: 2
+      Translate: "S\xE9lectionner une sauvegarde"
+    - Language: 3
+      Translate: "W\xE4hle ein Backup aus"
+    - Language: 4
+      Translate: Seleziona un backup
+    - Language: 5
+      Translate: "Escolher uma c\xF3pia de seguran\xE7a"
+    - Language: 6
+      Translate: Seleccione una copia de respaldo
+    - Language: 7
+      Translate: "Bir yedek se\xE7in"
+  - Key: Main/MarkerDefaultName1
+    Items:
+    - Language: 0
+      Translate: Full rest
+    - Language: 1
+      Translate: "\u041F\u043E\u043B\u043D\u043E\u0446\u0435\u043D\u043D\u044B\u0439
+        \u043E\u0442\u0434\u044B\u0445"
+    - Language: 2
+      Translate: Repos complet
+    - Language: 3
+      Translate: "Vollst\xE4ndige Ruhe"
+    - Language: 4
+      Translate: Riposo completo
+    - Language: 5
+      Translate: Descanso total
+    - Language: 6
+      Translate: Descanso completo
+    - Language: 7
+      Translate: Tam dinlenme
+  - Key: Main/MarkerDefaultName2
+    Items:
+    - Language: 0
+      Translate: Calm
+    - Language: 1
+      Translate: "\u0421\u043F\u043E\u043A\u043E\u0439\u0441\u0442\u0432\u0438\u0435"
+    - Language: 2
+      Translate: Calme
+    - Language: 3
+      Translate: Ruhe
+    - Language: 4
+      Translate: Quiete
+    - Language: 5
+      Translate: Calma
+    - Language: 6
+      Translate: Calma
+    - Language: 7
+      Translate: Sakinlik
+  - Key: Main/MarkerDefaultName3
+    Items:
+    - Language: 0
+      Translate: Waves
+    - Language: 1
+      Translate: "\u0412\u043E\u043B\u043D\u044B"
+    - Language: 2
+      Translate: Vagues
+    - Language: 3
+      Translate: Wellen
+    - Language: 4
+      Translate: Onde
+    - Language: 5
+      Translate: Ondas
+    - Language: 6
+      Translate: Olas
+    - Language: 7
+      Translate: Dalgalar
+  - Key: Main/MarkerDefaultName4
+    Items:
+    - Language: 0
+      Translate: Noizy
+    - Language: 1
+      Translate: "\u0428\u0443\u043C"
+    - Language: 2
+      Translate: Bruit
+    - Language: 3
+      Translate: "L\xE4rm"
+    - Language: 4
+      Translate: Rumore
+    - Language: 5
+      Translate: "Ru\xEDdo"
+    - Language: 6
+      Translate: Ruido
+    - Language: 7
+      Translate: "G\xFCr\xFClt\xFC"
+  - Key: Main/MarkerDefaultName5
+    Items:
+    - Language: 0
+      Translate: Storm
+    - Language: 1
+      Translate: "\u0428\u0442\u043E\u0440\u043C"
+    - Language: 2
+      Translate: "Temp\xEAte"
+    - Language: 3
+      Translate: Sturm
+    - Language: 4
+      Translate: Tempesta
+    - Language: 5
+      Translate: Tempestade
+    - Language: 6
+      Translate: Tormenta
+    - Language: 7
+      Translate: "F\u0131rt\u0131na"
+  - Key: Main/MarkerDescription0
+    Items:
+    - Language: 0
+      Translate: Days without characteristics.
+    - Language: 1
+      Translate: "\u0414\u043D\u0438 \u0431\u0435\u0437 \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043A\u0438."
+    - Language: 2
+      Translate: "Jours sans caract\xE9ristiques."
+    - Language: 3
+      Translate: Tage ohne Eigenschaften.
+    - Language: 4
+      Translate: Giorni senza caratteristiche.
+    - Language: 5
+      Translate: Dias sem propriedades.
+    - Language: 6
+      Translate: "D\xEDas sin caracter\xEDsticas."
+    - Language: 7
+      Translate: "\xD6zellikleri olmayan g\xFCnler."
+  - Key: Main/MarkerDescription1
+    Items:
+    - Language: 0
+      Translate: Days dedicated to full rest and recovery.
+    - Language: 1
+      Translate: "\u0414\u043D\u0438 \u043F\u043E\u0441\u0432\u044F\u0449\u0435\u043D\u043D\u044B\u0435
+        \u043F\u043E\u043B\u043D\u043E\u0446\u0435\u043D\u043D\u043E\u043C\u0443
+        \u043E\u0442\u0434\u044B\u0445\u0443 \u0438 \u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u044E."
+    - Language: 2
+      Translate: "Jours d\xE9di\xE9s au repos et \xE0 la r\xE9cup\xE9ration."
+    - Language: 3
+      Translate: "Tage f\xFCr gute Erholung und Regeneration."
+    - Language: 4
+      Translate: Giorni dedicati al riposo e al recupero.
+    - Language: 5
+      Translate: "Dias dedicados ao bom descanso e recupera\xE7\xE3o."
+    - Language: 6
+      Translate: "D\xEDas dedicados al buen descanso y la recuperaci\xF3n."
+    - Language: 7
+      Translate: "\u0130yi dinlenmeye ve iyile\u015Fmeye ayr\u0131lm\u0131\u015F
+        g\xFCnler."
+  - Key: Main/MarkerDescription2
+    Items:
+    - Language: 0
+      Translate: Calm and fulfilling days.
+    - Language: 1
+      Translate: "\u0421\u043F\u043E\u043A\u043E\u0439\u043D\u044B\u0435 \u0438 \u043F\u043E\u043B\u043D\u043E\u0446\u0435\u043D\u043D\u044B\u0435
+        \u0434\u043D\u0438."
+    - Language: 2
+      Translate: "Jours calmes et \xE9panouissants."
+    - Language: 3
+      Translate: "Ruhige und erf\xFCllende Tage."
+    - Language: 4
+      Translate: Giorni calmi e appaganti.
+    - Language: 5
+      Translate: Dias calmos e gratificantes.
+    - Language: 6
+      Translate: "D\xEDas tranquilos y gratificantes."
+    - Language: 7
+      Translate: "Sakin ve tatmin edici g\xFCnler."
+  - Key: Main/MarkerDescription3
+    Items:
+    - Language: 0
+      Translate: Days with awkward moments.
+    - Language: 1
+      Translate: "\u0414\u043D\u0438, \u0432 \u043A\u043E\u0442\u043E\u0440\u044B\u0445
+        \u0431\u044B\u043B\u0438 \u043D\u0435\u0443\u0434\u043E\u0431\u043D\u044B\u0435
+        \u043C\u043E\u043C\u0435\u043D\u0442\u044B."
+    - Language: 2
+      Translate: Jours avec des moments difficiles.
+    - Language: 3
+      Translate: Tage mit unangenehmen Momenten.
+    - Language: 4
+      Translate: Giorni con momenti imbarazzanti.
+    - Language: 5
+      Translate: "Dias com momentos embara\xE7osos."
+    - Language: 6
+      Translate: "D\xEDas con momentos inc\xF3modos."
+    - Language: 7
+      Translate: "Rahats\u0131z edici anlar\u0131n oldu\u011Fu g\xFCnler."
+  - Key: Main/MarkerDescription4
+    Items:
+    - Language: 0
+      Translate: Days in which disturbing moments or events may have occurred.
+    - Language: 1
+      Translate: "\u0414\u043D\u0438, \u0432 \u043A\u043E\u0442\u043E\u0440\u044B\u0445
+        \u043C\u043E\u0433\u043B\u0438 \u043F\u0440\u043E\u0438\u0441\u0445\u043E\u0434\u0438\u0442\u044C
+        \u0442\u0440\u0435\u0432\u043E\u0436\u043D\u044B\u0435 \u043C\u043E\u043C\u0435\u043D\u0442\u044B
+        \u0438\u043B\u0438 \u0441\u043E\u0431\u044B\u0442\u0438\u044F. "
+    - Language: 2
+      Translate: "Jours au cours desquels des moments ou des \xE9v\xE9nements troublants
+        ont pu se produire."
+    - Language: 3
+      Translate: "Tage, an denen st\xF6rende Momente oder Ereignisse aufgetreten
+        sein k\xF6nnen."
+    - Language: 4
+      Translate: Giorni in cui si sono verificati momenti o eventi inquietanti.
+    - Language: 5
+      Translate: Dias em que momentos ou eventos perturbadores podem ter ocorrido.
+    - Language: 6
+      Translate: "D\xEDas en los que pueden haber ocurrido momentos o eventos desagradables."
+    - Language: 7
+      Translate: "Rahats\u0131z edici anlar\u0131n veya olaylar\u0131n ya\u015Fanabildi\u011Fi
+        g\xFCnler."
+  - Key: Main/MarkerDescription5
+    Items:
+    - Language: 0
+      Translate: Days in which very difficult moments or events could occur that
+        could affect mental health.
+    - Language: 1
+      Translate: "\u0414\u043D\u0438, \u0432 \u043A\u043E\u0442\u043E\u0440\u044B\u0445
+        \u043C\u043E\u0433\u043B\u0438 \u043F\u0440\u043E\u0438\u0441\u0445\u043E\u0434\u0438\u0442\u044C
+        \u043E\u0447\u0435\u043D\u044C \u0442\u0440\u0443\u0434\u043D\u044B\u0435
+        \u043C\u043E\u043C\u0435\u043D\u0442\u044B \u0438\u043B\u0438 \u0441\u043E\u0431\u044B\u0442\u0438\u044F,
+        \u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u043C\u043E\u0433\u043B\u0438
+        \u043F\u043E\u0432\u043B\u0438\u044F\u0442\u044C \u043D\u0430 \u043C\u0435\u043D\u0442\u0430\u043B\u044C\u043D\u043E\u0435
+        \u0437\u0434\u043E\u0440\u043E\u0432\u044C\u0435."
+    - Language: 2
+      Translate: "Jours au cours desquels des moments ou des \xE9v\xE9nements tr\xE8s
+        difficiles pourraient survenir et affecter la sant\xE9 mentale."
+    - Language: 3
+      Translate: "Tage, an denen sehr schwierige Momente oder Ereignisse auftreten
+        k\xF6nnen, die die psychische Gesundheit beeintr\xE4chtigen k\xF6nnen."
+    - Language: 4
+      Translate: Giorni in cui possono verificarsi momenti o eventi molto difficili
+        che possono influire sul benessere mentale.
+    - Language: 5
+      Translate: "Dias em que podem ocorrer momentos ou eventos muito dif\xEDceis
+        que podem afetar a sa\xFAde mental."
+    - Language: 6
+      Translate: "D\xEDas en los que pueden ocurrir momentos o eventos muy dif\xEDciles
+        que podr\xEDan afectar la salud mental."
+    - Language: 7
+      Translate: "Ak\u0131l sa\u011Fl\u0131\u011F\u0131n\u0131 etkileyebilecek \xE7ok
+        zor anlar\u0131n veya olaylar\u0131n ya\u015Fanabildi\u011Fi g\xFCnler."
+  - Key: Main/MarkersAreaColorDescription
+    Items:
+    - Language: 0
+      Translate: 'The type that can be used to describe the day.
+
+        Touch
+        a category to change the name.'
+    - Language: 1
+      Translate: "\u0422\u0438\u043F, \u043A\u043E\u0442\u043E\u0440\u044B\u043C
+        \u043C\u043E\u0436\u043D\u043E \u043E\u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u0438\u0437\u043E\u0432\u0430\u0442\u044C
+        \u0434\u0435\u043D\u044C.\n\u041D\u0430\u0436\u043C\u0438\u0442\u0435 \u043D\u0430
+        \u043A\u0430\u0442\u0435\u0433\u043E\u0440\u0438\u044E, \u0447\u0442\u043E\u0431\u044B
+        \u0438\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0438\u043C\u044F."
+    - Language: 2
+      Translate: "Le genre qui peut \xEAtre utilis\xE9 pour d\xE9crire la journ\xE9e.\nCliquer
+        sur une cat\xE9gorie pour changer le nom."
+    - Language: 3
+      Translate: "Der Typ, mit dem der Tag beschrieben werden kann.\nKlicke auf eine
+        Kategorie, um den Namen zu \xE4ndern."
+    - Language: 4
+      Translate: "Il tipo che pu\xF2 essere utilizzato per descrivere il giorno.\nClicca
+        su una categoria per cambiare il nome."
+    - Language: 5
+      Translate: 'O tipo que pode ser utilizado para descrever o dia.
+
+        Clicar
+        numa categoria para alterar o nome.'
+    - Language: 6
+      Translate: "El tipo que se puede usar para describir el d\xEDa.\nHaga clic
+        en una categor\xEDa para cambiar el nombre."
+    - Language: 7
+      Translate: "G\xFCn\xFC tan\u0131mlamak i\xE7in kullan\u0131labilecek t\xFCr.\nAd\u0131n\u0131
+        de\u011Fi\u015Ftirmek i\xE7in bir kategoriye t\u0131klay\u0131n."
+  - Key: Main/MarkersAreaColorTitle
+    Items:
+    - Language: 0
+      Translate: Days quality
+    - Language: 1
+      Translate: "\u041A\u0430\u0447\u0435\u0441\u0442\u0432\u043E \u0434\u043D\u0435\u0439"
+    - Language: 2
+      Translate: "Qualit\xE9 des jours"
+    - Language: 3
+      Translate: "Qualit\xE4t der Tage"
+    - Language: 4
+      Translate: "Qualit\xE0 dei giorni"
+    - Language: 5
+      Translate: Qualidade dos dias
+    - Language: 6
+      Translate: "Calidad de los d\xEDas"
+    - Language: 7
+      Translate: "G\xFCnlerin kalitesi"
+  - Key: Main/MarkersAreaDaysDescription
+    Items:
+    - Language: 0
+      Translate: 'Marked days in the calendar.
+
+        Touch a month to select
+        a day.'
+    - Language: 1
+      Translate: "\u041E\u0442\u043C\u0435\u0447\u0435\u043D\u043D\u044B\u0435 \u0434\u043D\u0438
+        \u0432 \u043A\u0430\u043B\u0435\u043D\u0434\u0430\u0440\u0435.\n\u041D\u0430\u0436\u043C\u0438\u0442\u0435
+        \u043D\u0430 \u043C\u0435\u0441\u044F\u0446 \u0434\u043B\u044F \u0432\u044B\u0431\u043E\u0440\u0430
+        \u0434\u043D\u044F."
+    - Language: 2
+      Translate: "Jours marqu\xE9s sur le calendrier.\nCliquet sur un mois pour s\xE9lectionner
+        un jour."
+    - Language: 3
+      Translate: "Markierte Tage im Kalender.\nKlicke auf einen Monat, um einen Tag
+        auszuw\xE4hlen."
+    - Language: 4
+      Translate: 'Contrassegna giorni sul calendario.
+
+        Clicca su un mese
+        per selezionare un giorno.'
+    - Language: 5
+      Translate: "Dias marcados no calend\xE1rio.\nClicar num m\xEAs para selecionar
+        um dia."
+    - Language: 6
+      Translate: "D\xEDas marcados en el calendario.\nHaga clic en un mes para seleccionar
+        un d\xEDa."
+    - Language: 7
+      Translate: "Takvimde i\u015Faretlenmi\u015F g\xFCnler.\nBir g\xFCn se\xE7mek
+        i\xE7in bir aya t\u0131klay\u0131n."
+  - Key: Main/MarkersAreaDaysTitle
+    Items:
+    - Language: 0
+      Translate: View
+    - Language: 1
+      Translate: "\u041E\u0431\u0437\u043E\u0440"
+    - Language: 2
+      Translate: "Aper\xE7u"
+    - Language: 3
+      Translate: "\xDCberblick"
+    - Language: 4
+      Translate: Panoramica
+    - Language: 5
+      Translate: "Vis\xE3o geral"
+    - Language: 6
+      Translate: "Visi\xF3n general"
+    - Language: 7
+      Translate: "Genel bak\u0131\u015F"
+  - Key: Main/MarksAsCompleted
+    Items:
+    - Language: 0
+      Translate: Mark as completed
+    - Language: 1
+      Translate: "\u0417\u0430\u043A\u043E\u043D\u0447\u0438\u0442\u044C \u0437\u0430\u0434\u0430\u0447\u0443"
+    - Language: 2
+      Translate: "T\xE2che finale"
+    - Language: 3
+      Translate: Aufgabe beenden
+    - Language: 4
+      Translate: "Ultima attivit\xE0"
+    - Language: 5
+      Translate: Finalizar tarefa
+    - Language: 6
+      Translate: Tarea final
+    - Language: 7
+      Translate: "G\xF6revi bitir"
+  - Key: Main/MonthlyView
+    Items:
+    - Language: 0
+      Translate: Month statistics
+    - Language: 1
+      Translate: "\u0421\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043A\u0430 \u043C\u0435\u0441\u044F\u0446\u0430"
+    - Language: 2
+      Translate: Statistiques mensuelles
+    - Language: 3
+      Translate: Monats statistik
+    - Language: 4
+      Translate: Statistiche mensili
+    - Language: 5
+      Translate: "Estat\xEDsticas do m\xEAs"
+    - Language: 6
+      Translate: "Estad\xEDsticas del mes"
+    - Language: 7
+      Translate: "Ayl\u0131k istatistikler"
+  - Key: Main/Name
+    Items:
+    - Language: 0
+      Translate: Name
+    - Language: 1
+      Translate: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435"
+    - Language: 2
+      Translate: Nom
+    - Language: 3
+      Translate: Name
+    - Language: 4
+      Translate: Nome
+    - Language: 5
+      Translate: Nome
+    - Language: 6
+      Translate: Nombre
+    - Language: 7
+      Translate: "\u0130sim"
+  - Key: Main/NotificationUpdateProgress
+    Items:
+    - Language: 0
+      Translate: Update progress
+    - Language: 1
+      Translate: "\u041E\u0431\u043D\u043E\u0432\u0438\u0442\u044C \u043F\u0440\u043E\u0433\u0440\u0435\u0441\u0441"
+    - Language: 2
+      Translate: Actualiser la progression
+    - Language: 3
+      Translate: Fortschritt aktualisieren
+    - Language: 4
+      Translate: Aggiorna progressi
+    - Language: 5
+      Translate: Atualizar progresso
+    - Language: 6
+      Translate: Actualizar progreso
+    - Language: 7
+      Translate: "\u0130lerlemeyi g\xFCncelle"
+  - Key: Main/PurchaseBuyButton
+    Items:
+    - Language: 0
+      Translate: Buy
+    - Language: 1
+      Translate: "\u041A\u0443\u043F\u0438\u0442\u044C"
+    - Language: 2
+      Translate: Acheter
+    - Language: 3
+      Translate: Kaufen
+    - Language: 4
+      Translate: Acquistare
+    - Language: 5
+      Translate: Comprar
+    - Language: 6
+      Translate: Comprar
+    - Language: 7
+      Translate: "Sat\u0131n"
+  - Key: Main/PurchaseTempPrice
+    Items:
+    - Language: 0
+      Translate: 0.99
+    - Language: 1
+      Translate: 0.99
+    - Language: 2
+      Translate: 0.99
+    - Language: 3
+      Translate: 0.99
+    - Language: 4
+      Translate: 0.99
+    - Language: 5
+      Translate: 0.99
+    - Language: 6
+      Translate: 0.99
+    - Language: 7
+      Translate: 0.99
+  - Key: Main/PurchaseUnlock1
+    Items:
+    - Language: 0
+      Translate: Dark theme
+    - Language: 1
+      Translate: "\u0422\u0435\u043C\u043D\u0430\u044F \u0442\u0435\u043C\u0430"
+    - Language: 2
+      Translate: "Th\xE8me sombre"
+    - Language: 3
+      Translate: Dunkles thema
+    - Language: 4
+      Translate: Tema scuro
+    - Language: 5
+      Translate: Tema escuro
+    - Language: 6
+      Translate: Tema obscuro
+    - Language: 7
+      Translate: Koyu tema
+  - Key: Main/PurchaseUnlock2
+    Items:
+    - Language: 0
+      Translate: Future additions
+    - Language: 1
+      Translate: "\u0411\u0443\u0434\u0443\u0449\u0438\u0435 \u0434\u043E\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F"
+    - Language: 2
+      Translate: Ajouts futurs
+    - Language: 3
+      Translate: "Zuk\xFCnftige Erg\xE4nzungen"
+    - Language: 4
+      Translate: Aggiunte future
+    - Language: 5
+      Translate: "Adi\xE7\xF5es futuras"
+    - Language: 6
+      Translate: Adiciones futuras
+    - Language: 7
+      Translate: Gelecekteki eklemeler
+  - Key: Main/PurchaseUnlock3
+    Items:
+    - Language: 0
+      Translate: Thanks for the support!
+    - Language: 1
+      Translate: "\u0421\u043F\u0430\u0441\u0438\u0431\u043E \u0437\u0430 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0443!"
+    - Language: 2
+      Translate: Merci pour le soutien!
+    - Language: 3
+      Translate: "Danke f\xFCr die Unterst\xFCtzung!"
+    - Language: 4
+      Translate: Grazie per il supporto!
+    - Language: 5
+      Translate: Obrigado pelo apoio!
+    - Language: 6
+      Translate: "\xA1Gracias por el apoyo!"
+    - Language: 7
+      Translate: "Destek i\xE7in te\u015Fekk\xFCrler!"
+  - Key: Main/Reminders
+    Items:
+    - Language: 0
+      Translate: Reminders
+    - Language: 1
+      Translate: "\u041E\u043F\u043E\u0432\u0435\u0449\u0435\u043D\u0438\u044F"
+    - Language: 2
+      Translate: Alertes
+    - Language: 3
+      Translate: Warnungen
+    - Language: 4
+      Translate: Avvisi
+    - Language: 5
+      Translate: Alertas
+    - Language: 6
+      Translate: Alertas
+    - Language: 7
+      Translate: "Uyar\u0131lar"
+  - Key: Main/Remove
+    Items:
+    - Language: 0
+      Translate: Remove
+    - Language: 1
+      Translate: "\u0423\u0434\u0430\u043B\u0438\u0442\u044C"
+    - Language: 2
+      Translate: Supprimer
+    - Language: 3
+      Translate: "L\xF6schen\r"
+    - Language: 4
+      Translate: Elimina
+    - Language: 5
+      Translate: Apagar
+    - Language: 6
+      Translate: Eliminar
+    - Language: 7
+      Translate: Sil
+  - Key: Main/SeaCalendar
+    Items:
+    - Language: 0
+      Translate: Sea calendar
+    - Language: 1
+      Translate: "Sea \u043A\u0430\u043B\u0435\u043D\u0434\u0430\u0440\u044C"
+    - Language: 2
+      Translate: Calendrier Sea
+    - Language: 3
+      Translate: Sea Kalender
+    - Language: 4
+      Translate: Calendario Sea
+    - Language: 5
+      Translate: "Calend\xE1rio Sea"
+    - Language: 6
+      Translate: Sea Calendar
+    - Language: 7
+      Translate: Sea takvimi
+  - Key: Main/SeaCalendarAbout
+    Items:
+    - Language: 0
+      Translate: <b>...</b>
+    - Language: 1
+      Translate: <b>...</b>
+    - Language: 2
+      Translate: <b>...</b>
+    - Language: 3
+      Translate: <b>...</b>
+    - Language: 4
+      Translate: <b>...</b>
+    - Language: 5
+      Translate: <b>...</b>
+    - Language: 6
+      Translate: <b>...</b>
+    - Language: 7
+      Translate: <b>...</b>
+  - Key: Main/SettingsAutoBackup
+    Items:
+    - Language: 0
+      Translate: Auto backup
+    - Language: 1
+      Translate: "\u0410\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u043E\u0435
+        \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u0435"
+    - Language: 2
+      Translate: "Cr\xE9ation automatique"
+    - Language: 3
+      Translate: Automatische Erstellung
+    - Language: 4
+      Translate: Creazione automatica
+    - Language: 5
+      Translate: "Cria\xE7\xE3o autom\xE1tica"
+    - Language: 6
+      Translate: "Creaci\xF3n autom\xE1tica"
+    - Language: 7
+      Translate: "Otomatik olu\u015Fturma"
+  - Key: Main/SettingsButtonAboutSeaCalendar
+    Items:
+    - Language: 0
+      Translate: About Sea calendar
+    - Language: 1
+      Translate: "\u041F\u0440\u043E Sea \u043A\u0430\u043B\u0435\u043D\u0434\u0430\u0440\u044C"
+    - Language: 2
+      Translate: "\xC0 propos du calendrier"
+    - Language: 3
+      Translate: "\xDCber den Kalender"
+    - Language: 4
+      Translate: Informazioni sul calendario
+    - Language: 5
+      Translate: "Sobre o calend\xE1rio"
+    - Language: 6
+      Translate: Sobre el calendario
+    - Language: 7
+      Translate: "Takvim hakk\u0131nda"
+  - Key: Main/SettingsButtonBuyApp
+    Items:
+    - Language: 0
+      Translate: Buy Pro Version
+    - Language: 1
+      Translate: "\u041A\u0443\u043F\u0438\u0442\u044C Pro \u0432\u0435\u0440\u0441\u0438\u044E"
+    - Language: 2
+      Translate: Acheter la version Pro
+    - Language: 3
+      Translate: Pro Version kaufen
+    - Language: 4
+      Translate: Acquista la versione Pro
+    - Language: 5
+      Translate: "Compre a vers\xE3o Pro"
+    - Language: 6
+      Translate: "Comprar versi\xF3n Pro"
+    - Language: 7
+      Translate: "Pro s\xFCr\xFCm\xFCn\xFC sat\u0131n al\u0131n"
+  - Key: Main/SettingsButtonDarkTheme
+    Items:
+    - Language: 0
+      Translate: Night theme
+    - Language: 1
+      Translate: "\u0422\u0435\u043C\u043D\u0430\u044F \u0442\u0435\u043C\u0430"
+    - Language: 2
+      Translate: "Th\xE8me sombre"
+    - Language: 3
+      Translate: Dunkles Thema
+    - Language: 4
+      Translate: Tema scuro
+    - Language: 5
+      Translate: Tema escuro
+    - Language: 6
+      Translate: Tema obscuro
+    - Language: 7
+      Translate: Koyu tema
+  - Key: Main/SettingsButtonDayOff
+    Items:
+    - Language: 0
+      Translate: Day of rest
+    - Language: 1
+      Translate: "\u0414\u0435\u043D\u044C \u043E\u0442\u0434\u044B\u0445\u0430"
+    - Language: 2
+      Translate: Jour de repos
+    - Language: 3
+      Translate: Ruhetag
+    - Language: 4
+      Translate: Giorno di riposo
+    - Language: 5
+      Translate: Dia de descanso
+    - Language: 6
+      Translate: "D\xEDa de descanso"
+    - Language: 7
+      Translate: "\u0130zinli g\xFCnler"
+  - Key: Main/SettingsButtonFirstDayOfWeek
+    Items:
+    - Language: 0
+      Translate: Beginning of the week
+    - Language: 1
+      Translate: "\u041D\u0430\u0447\u0430\u043B\u043E \u043D\u0435\u0434\u0435\u043B\u0438"
+    - Language: 2
+      Translate: "D\xE9but de la semaine"
+    - Language: 3
+      Translate: Anfang der Woche
+    - Language: 4
+      Translate: Inizio della settimana
+    - Language: 5
+      Translate: "In\xEDcio da semana"
+    - Language: 6
+      Translate: Inicio de la semana
+    - Language: 7
+      Translate: "Haftan\u0131n ba\u015F\u0131"
+  - Key: Main/SettingsButtonHourFormat
+    Items:
+    - Language: 0
+      Translate: 24-hour format
+    - Language: 1
+      Translate: "24-\u0447\u0430\u0441\u043E\u0432\u043E\u0439 \u0444\u043E\u0440\u043C\u0430\u0442"
+    - Language: 2
+      Translate: Format 24 heures
+    - Language: 3
+      Translate: 24 Stunden Format
+    - Language: 4
+      Translate: Formato 24 ore
+    - Language: 5
+      Translate: Formato de 24 horas
+    - Language: 6
+      Translate: Formato de 24 horas
+    - Language: 7
+      Translate: "24 saat format\u0131"
+  - Key: Main/SettingsButtonLanguage
+    Items:
+    - Language: 0
+      Translate: Language
+    - Language: 1
+      Translate: "\u042F\u0437\u044B\u043A"
+    - Language: 2
+      Translate: Langue
+    - Language: 3
+      Translate: Zunge
+    - Language: 4
+      Translate: Lingua
+    - Language: 5
+      Translate: "L\xEDngua"
+    - Language: 6
+      Translate: Lengua
+    - Language: 7
+      Translate: Dil
+  - Key: Main/SettingsButtonTutorial
+    Items:
+    - Language: 0
+      Translate: Manual
+    - Language: 1
+      Translate: "\u0420\u0443\u043A\u043E\u0432\u043E\u0434\u0441\u0442\u0432\u043E"
+    - Language: 2
+      Translate: Manuel
+    - Language: 3
+      Translate: Handbuch
+    - Language: 4
+      Translate: Manuale
+    - Language: 5
+      Translate: Manual
+    - Language: 6
+      Translate: Manual
+    - Language: 7
+      Translate: "K\u0131lavuz"
+  - Key: Main/SettingsClearData
+    Items:
+    - Language: 0
+      Translate: Clear data
+    - Language: 1
+      Translate: "\u041E\u0447\u0438\u0441\u0442\u0438\u0442\u044C \u0434\u0430\u043D\u043D\u044B\u0435"
+    - Language: 2
+      Translate: "Effacer les donn\xE9es"
+    - Language: 3
+      Translate: "Daten l\xF6schen"
+    - Language: 4
+      Translate: Elimina i dati
+    - Language: 5
+      Translate: Apagar os dados
+    - Language: 6
+      Translate: Borrar datos
+    - Language: 7
+      Translate: Verileri sil
+  - Key: Main/SettingsConnections
+    Items:
+    - Language: 0
+      Translate: Connections
+    - Language: 1
+      Translate: "\u0421\u0432\u044F\u0437\u044C"
+    - Language: 2
+      Translate: Communication
+    - Language: 3
+      Translate: Kommunikation
+    - Language: 4
+      Translate: Comunicazione
+    - Language: 5
+      Translate: "Comunica\xE7\xE3o"
+    - Language: 6
+      Translate: "Comunicaci\xF3n"
+    - Language: 7
+      Translate: "\u0130leti\u015Fim"
+  - Key: Main/SettingsCreateDataBackup
+    Items:
+    - Language: 0
+      Translate: Create backup
+    - Language: 1
+      Translate: "\u0421\u043E\u0437\u0434\u0430\u0442\u044C \u0440\u0435\u0437\u0435\u0440\u0432\u043D\u0443\u044E
+        \u043A\u043E\u043F\u0438\u044E"
+    - Language: 2
+      Translate: "Cr\xE9er une sauvegarde"
+    - Language: 3
+      Translate: Erstelle ein Backup
+    - Language: 4
+      Translate: Effettua un backup
+    - Language: 5
+      Translate: "Fazer uma c\xF3pia de seguran\xE7a"
+    - Language: 6
+      Translate: Crear una copia de seguridad
+    - Language: 7
+      Translate: "Yedek olu\u015Ftur"
+  - Key: Main/SettingsDataTitle
+    Items:
+    - Language: 0
+      Translate: Data
+    - Language: 1
+      Translate: "\u0414\u0430\u043D\u043D\u044B\u0435"
+    - Language: 2
+      Translate: "Donn\xE9es"
+    - Language: 3
+      Translate: Daten
+    - Language: 4
+      Translate: Dati
+    - Language: 5
+      Translate: Dados
+    - Language: 6
+      Translate: Datos
+    - Language: 7
+      Translate: Veri
+  - Key: Main/SettingsExportFile
+    Items:
+    - Language: 0
+      Translate: Export file
+    - Language: 1
+      Translate: "\u041E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C \u0444\u0430\u0439\u043B"
+    - Language: 2
+      Translate: Envoyer le fichier
+    - Language: 3
+      Translate: Datei senden
+    - Language: 4
+      Translate: Invia file
+    - Language: 5
+      Translate: Enviar arquivo
+    - Language: 6
+      Translate: Enviar archivo
+    - Language: 7
+      Translate: "Dosya G\xF6nder"
+  - Key: Main/SettingsLoadDataBackup
+    Items:
+    - Language: 0
+      Translate: Load backup
+    - Language: 1
+      Translate: "\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044C \u043A\u043E\u043F\u0438\u044E"
+    - Language: 2
+      Translate: "T\xE9l\xE9charger une copie"
+    - Language: 3
+      Translate: Eine Kopie herunterladen
+    - Language: 4
+      Translate: Scarica una copia
+    - Language: 5
+      Translate: "Fazer o download de uma c\xF3pia"
+    - Language: 6
+      Translate: Descargar una copia
+    - Language: 7
+      Translate: "Bir kopyas\u0131n\u0131 indir"
+  - Key: Main/SettingsMainTitle
+    Items:
+    - Language: 0
+      Translate: Main
+    - Language: 1
+      Translate: "\u041E\u0441\u043D\u043E\u0432\u043D\u043E\u0435"
+    - Language: 2
+      Translate: Principal
+    - Language: 3
+      Translate: Das Haupt
+    - Language: 4
+      Translate: Principale
+    - Language: 5
+      Translate: O principal
+    - Language: 6
+      Translate: El principal
+    - Language: 7
+      Translate: Ana
+  - Key: Main/SettingsName
+    Items:
+    - Language: 0
+      Translate: Settings
+    - Language: 1
+      Translate: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
+    - Language: 2
+      Translate: "Param\xE8tres"
+    - Language: 3
+      Translate: Einstellungen
+    - Language: 4
+      Translate: Impostazioni
+    - Language: 5
+      Translate: "Configura\xE7\xF5es"
+    - Language: 6
+      Translate: Configuraciones
+    - Language: 7
+      Translate: Ayarlar
+  - Key: Main/SettingsOtherTitle
+    Items:
+    - Language: 0
+      Translate: Other
+    - Language: 1
+      Translate: "\u041F\u0440\u043E\u0447\u0435\u0435"
+    - Language: 2
+      Translate: Autre
+    - Language: 3
+      Translate: Andere
+    - Language: 4
+      Translate: Altro
+    - Language: 5
+      Translate: Outro
+    - Language: 6
+      Translate: Otro
+    - Language: 7
+      Translate: "Di\u011Fer"
+  - Key: Main/SettingsPrivacyPolicy
+    Items:
+    - Language: 0
+      Translate: Privacy Policy
+    - Language: 1
+      Translate: "\u041F\u043E\u043B\u0438\u0442\u0438\u043A\u0430 \u043A\u043E\u043D\u0444\u0438\u0434\u0435\u043D\u0446\u0438\u0430\u043B\u044C\u043D\u043E\u0441\u0442\u0438"
+    - Language: 2
+      Translate: "Politique de confidentialit\xE9"
+    - Language: 3
+      Translate: Datenschutz-Bestimmungen
+    - Language: 4
+      Translate: Informativa sulla privacy
+    - Language: 5
+      Translate: "Pol\xEDtica de privacidade"
+    - Language: 6
+      Translate: "Pol\xEDtica de privacidad"
+    - Language: 7
+      Translate: "Gizlilik Politikas\u0131"
+  - Key: Main/SettingsReviewApp
+    Items:
+    - Language: 0
+      Translate: Review
+    - Language: 1
+      Translate: "\u041E\u0446\u0435\u043D\u0438\u0442\u044C"
+    - Language: 2
+      Translate: Estimation
+    - Language: 3
+      Translate: "Sch\xE4tzen"
+    - Language: 4
+      Translate: Stima
+    - Language: 5
+      Translate: Estimativa
+    - Language: 6
+      Translate: Estimar
+    - Language: 7
+      Translate: Tahmin
+  - Key: Main/SettingsShare
+    Items:
+    - Language: 0
+      Translate: Share
+    - Language: 1
+      Translate: "\u041F\u043E\u0434\u0435\u043B\u0438\u0442\u044C\u0441\u044F"
+    - Language: 2
+      Translate: Partagez ceci
+    - Language: 3
+      Translate: Teile das
+    - Language: 4
+      Translate: Condividi questo
+    - Language: 5
+      Translate: Partilhar isto
+    - Language: 6
+      Translate: Compartir este
+    - Language: 7
+      Translate: "Bunu Payla\u015F"
+  - Key: Main/SettingsShareMessage
+    Items:
+    - Language: 0
+      Translate: 'Sea Todo:'
+    - Language: 1
+      Translate: 'Sea Todo:'
+    - Language: 2
+      Translate: 'Sea Todo:'
+    - Language: 3
+      Translate: 'Sea Todo:'
+    - Language: 4
+      Translate: 'Sea Todo:'
+    - Language: 5
+      Translate: 'Sea Todo:'
+    - Language: 6
+      Translate: 'Sea Todo:'
+    - Language: 7
+      Translate: 'Sea Todo:'
+  - Key: Main/SettingsTermsAndConditions
+    Items:
+    - Language: 0
+      Translate: Terms & Conditions
+    - Language: 1
+      Translate: "\u0423\u0441\u043B\u043E\u0432\u0438\u044F \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F"
+    - Language: 2
+      Translate: Conditions d'utilisation
+    - Language: 3
+      Translate: Nutzungsbedingungen
+    - Language: 4
+      Translate: Termini di utilizzo
+    - Language: 5
+      Translate: "Termos de utiliza\xE7\xE3o"
+    - Language: 6
+      Translate: "T\xE9rminos de uso"
+    - Language: 7
+      Translate: "Kullan\u0131m \u015Eartlar\u0131"
+  - Key: Main/SettingsThanks
+    Items:
+    - Language: 0
+      Translate: Thanks
+    - Language: 1
+      Translate: "\u0411\u043B\u0430\u0433\u043E\u0434\u0430\u0440\u043D\u043E\u0441\u0442\u0438"
+    - Language: 2
+      Translate: Remerciements
+    - Language: 3
+      Translate: Danksagung
+    - Language: 4
+      Translate: Ringraziamenti
+    - Language: 5
+      Translate: Agradecimentos
+    - Language: 6
+      Translate: Expresiones de gratitud
+    - Language: 7
+      Translate: "Te\u015Fekk\xFCrler"
+  - Key: Main/Skip
+    Items:
+    - Language: 0
+      Translate: Skip
+    - Language: 1
+      Translate: "\u041F\u0440\u043E\u043F\u0443\u0441\u0442\u0438\u0442\u044C"
+    - Language: 2
+      Translate: Sauter
+    - Language: 3
+      Translate: "\xDCberspringen"
+    - Language: 4
+      Translate: Salta
+    - Language: 5
+      Translate: Saltar
+    - Language: 6
+      Translate: Omitir
+    - Language: 7
+      Translate: Atla
+  - Key: Main/Step
+    Items:
+    - Language: 0
+      Translate: Step
+    - Language: 1
+      Translate: "\u0428\u0430\u0433"
+    - Language: 2
+      Translate: "\xC9tape"
+    - Language: 3
+      Translate: Schritt
+    - Language: 4
+      Translate: Passo
+    - Language: 5
+      Translate: Passo
+    - Language: 6
+      Translate: Paso
+    - Language: 7
+      Translate: "Ad\u0131m"
+  - Key: Main/TaskExample
+    Items:
+    - Language: 0
+      Translate: Task example
+    - Language: 1
+      Translate: "\u041F\u0440\u0438\u043C\u0435\u0440 \u0437\u0430\u0434\u0430\u0447\u0438"
+    - Language: 2
+      Translate: "Exemple de t\xE2che"
+    - Language: 3
+      Translate: Beispielaufgabe
+    - Language: 4
+      Translate: "Esempio di attivit\xE0"
+    - Language: 5
+      Translate: Tarefa de exemplo
+    - Language: 6
+      Translate: Ejemplo de tarea
+    - Language: 7
+      Translate: "\xD6rnek g\xF6rev"
+  - Key: Main/TaskProgress
+    Items:
+    - Language: 0
+      Translate: Overview
+    - Language: 1
+      Translate: "\u041E\u0431\u0437\u043E\u0440"
+    - Language: 2
+      Translate: "Aper\xE7u"
+    - Language: 3
+      Translate: "\xDCberblick"
+    - Language: 4
+      Translate: Panoramica
+    - Language: 5
+      Translate: "Vis\xE3o geral"
+    - Language: 6
+      Translate: "Visi\xF3n general"
+    - Language: 7
+      Translate: "Genel bak\u0131\u015F"
+  - Key: Main/TasksLimit
+    Items:
+    - Language: 0
+      Translate: Tasks limit
+    - Language: 1
+      Translate: "\u041B\u0438\u043C\u0438\u0442 \u0437\u0430\u0434\u0430\u0447"
+    - Language: 2
+      Translate: "Limite de t\xE2ches"
+    - Language: 3
+      Translate: Aufgabenbegrenzung
+    - Language: 4
+      Translate: "Limite dell'attivit\xE0"
+    - Language: 5
+      Translate: Limite de tarefas
+    - Language: 6
+      Translate: "L\xEDmite de tareas"
+    - Language: 7
+      Translate: "G\xF6rev s\u0131n\u0131rlamas\u0131"
+  - Key: Main/TitleChooseDayMarker
+    Items:
+    - Language: 0
+      Translate: Quality of the day
+    - Language: 1
+      Translate: "\u041A\u0430\u0447\u0435\u0441\u0442\u0432\u043E \u0434\u043D\u044F"
+    - Language: 2
+      Translate: "Qualit\xE9 de la journ\xE9e"
+    - Language: 3
+      Translate: "Qualit\xE4t des Tages"
+    - Language: 4
+      Translate: "Qualit\xE0 del giorno"
+    - Language: 5
+      Translate: Qualidade do dia
+    - Language: 6
+      Translate: "Calidad del d\xEDa"
+    - Language: 7
+      Translate: "G\xFCn Kalitesi"
+  - Key: Main/TitleExample
+    Items:
+    - Language: 0
+      Translate: Sea Todo
+    - Language: 1
+      Translate: Sea Todo
+    - Language: 2
+      Translate: Sea Todo
+    - Language: 3
+      Translate: Sea Todo
+    - Language: 4
+      Translate: Sea Todo
+    - Language: 5
+      Translate: Sea Todo
+    - Language: 6
+      Translate: Sea Todo
+    - Language: 7
+      Translate: Sea Todo
+  - Key: Main/TitleUpdateMarkerModule
+    Items:
+    - Language: 0
+      Translate: Rename
+    - Language: 1
+      Translate: "\u041F\u0435\u0440\u0435\u0438\u043C\u0435\u043D\u043E\u0432\u0430\u0442\u044C"
+    - Language: 2
+      Translate: Renommer
+    - Language: 3
+      Translate: Umbenennen
+    - Language: 4
+      Translate: Rinomina
+    - Language: 5
+      Translate: Renomear
+    - Language: 6
+      Translate: Rebautizar
+    - Language: 7
+      Translate: "Ad\u0131n\u0131 de\u011Fi\u015Ftir"
+  - Key: Main/Today
+    Items:
+    - Language: 0
+      Translate: Today
+    - Language: 1
+      Translate: "\u0421\u0435\u0433\u043E\u0434\u043D\u044F"
+    - Language: 2
+      Translate: Aujourd'hui
+    - Language: 3
+      Translate: Heute
+    - Language: 4
+      Translate: Oggi
+    - Language: 5
+      Translate: Hoje
+    - Language: 6
+      Translate: Hoy
+    - Language: 7
+      Translate: "Bug\xFCn"
+  - Key: Main/Todo
+    Items:
+    - Language: 0
+      Translate: To do
+    - Language: 1
+      Translate: "\u0414\u0435\u043B\u0430\u0442\u044C"
+    - Language: 2
+      Translate: Faire
+    - Language: 3
+      Translate: Machen
+    - Language: 4
+      Translate: Fare
+    - Language: 5
+      Translate: Fazer
+    - Language: 6
+      Translate: Hacer
+    - Language: 7
+      Translate: Yap
+  - Key: Main/Topics
+    Items:
+    - Language: 0
+      Translate: Topics
+    - Language: 1
+      Translate: "\u0421\u0442\u0430\u0442\u044C\u0438"
+    - Language: 2
+      Translate: Aticles
+    - Language: 3
+      Translate: Artikel
+    - Language: 4
+      Translate: Articoli
+    - Language: 5
+      Translate: Artigos
+    - Language: 6
+      Translate: "Art\xEDculos"
+    - Language: 7
+      Translate: Maddeler
+  - Key: Main/Tutorial
+    Items:
+    - Language: 0
+      Translate: Manual
+    - Language: 1
+      Translate: "\u0420\u0443\u043A\u043E\u0432\u043E\u0434\u0441\u0442\u0432\u043E"
+    - Language: 2
+      Translate: Manuel
+    - Language: 3
+      Translate: Handbuch
+    - Language: 4
+      Translate: Manuale
+    - Language: 5
+      Translate: Manual
+    - Language: 6
+      Translate: Manual
+    - Language: 7
+      Translate: "K\u0131lavuz"
+  - Key: Main/Update
+    Items:
+    - Language: 0
+      Translate: Update
+    - Language: 1
+      Translate: "\u041E\u0431\u043D\u043E\u0432\u0438\u0442\u044C"
+    - Language: 2
+      Translate: "Rafra\xEEchir"
+    - Language: 3
+      Translate: Aktualisierung
+    - Language: 4
+      Translate: Ricarica
+    - Language: 5
+      Translate: Atualizar
+    - Language: 6
+      Translate: Actualizar
+    - Language: 7
+      Translate: Yenile
+  - Key: Main/UpdateFlowTitleGoal
+    Items:
+    - Language: 0
+      Translate: Update size / goal of task
+    - Language: 1
+      Translate: "\u041E\u0431\u043D\u043E\u0432\u0438\u0442\u044C \u0432\u0435\u043B\u0438\u0447\u0438\u043D\u0443
+        / \u0446\u0435\u043B\u0438 \u0437\u0430\u0434\u0430\u0447\u0438"
+    - Language: 2
+      Translate: "Mettre \xE0 jour la taille / les objectifs de la t\xE2che"
+    - Language: 3
+      Translate: "Aktualisiere die Aufgabengr\xF6\xDFe / -ziele"
+    - Language: 4
+      Translate: "Aggiorna dimensione / obiettivi dell'attivit\xE0"
+    - Language: 5
+      Translate: "Atualizar a dimens\xE3o / objetivos da tarefa"
+    - Language: 6
+      Translate: "Actualizar el tama\xF1o de la tarea / objetivos"
+    - Language: 7
+      Translate: "G\xF6rev b\xFCy\xFCkl\xFC\u011F\xFCn\xFC / hedeflerini g\xFCncelle"
+  - Key: Main/UpdateMarker
+    Items:
+    - Language: 0
+      Translate: Update day type
+    - Language: 1
+      Translate: "\u041E\u0431\u043D\u043E\u0432\u0438\u0442\u044C \u0442\u0438\u043F
+        \u0434\u043D\u044F"
+    - Language: 2
+      Translate: "Mettre \xE0 jour le type de jour"
+    - Language: 3
+      Translate: Tagestyp aktualisieren
+    - Language: 4
+      Translate: Aggiorna il tipo di giorno
+    - Language: 5
+      Translate: Atualizar tipo de dia
+    - Language: 6
+      Translate: "Actualizar el tipo de d\xEDa"
+    - Language: 7
+      Translate: "G\xFCn t\xFCr\xFCn\xFC g\xFCncelle"
+  - Key: Main/UpdateMarkerDescription
+    Items:
+    - Language: 0
+      Translate: If you change the name, the previously marked days will also be
+        renamed.
+    - Language: 1
+      Translate: "\u0415\u0441\u043B\u0438 \u0432\u044B \u0438\u0437\u043C\u0435\u043D\u0438\u0442\u0435
+        \u0438\u043C\u044F, \u043E\u0442\u043C\u0435\u0447\u0435\u043D\u043D\u044B\u0435
+        \u0440\u0430\u043D\u0435\u0435 \u0434\u043D\u0438 \u0442\u0430\u043A\u0436\u0435
+        \u0431\u0443\u0434\u0443\u0442 \u043F\u0435\u0440\u0435\u0438\u043C\u0435\u043D\u043E\u0432\u0430\u043D\u044B."
+    - Language: 2
+      Translate: "Si vous modifiez le nom, les jours pr\xE9c\xE9demment marqu\xE9s
+        seront \xE9galement renomm\xE9s."
+    - Language: 3
+      Translate: "Wenn du den Namen \xE4nderst, werden auch die zuvor markierten
+        Tage umbenannt."
+    - Language: 4
+      Translate: Se si modifica il nome, anche i giorni contrassegnati in precedenza
+        verranno rinominati.
+    - Language: 5
+      Translate: "Se alterar o nome, os dias marcados anteriormente tamb\xE9m ser\xE3o
+        renomeados."
+    - Language: 6
+      Translate: "Si cambia el nombre, tambi\xE9n se cambiar\xE1n los nombres de
+        los d\xEDas marcados anteriormente."
+    - Language: 7
+      Translate: "Ad\u0131 de\u011Fi\u015Ftirirseniz, \xF6nceden i\u015Faretlenmi\u015F
+        g\xFCnlerin de ad\u0131 de\u011Fi\u015Fecektir."
+  - Key: Main/UpdateMarkerHasNameTitle
+    Items:
+    - Language: 0
+      Translate: New name
+    - Language: 1
+      Translate: "\u041D\u043E\u0432\u043E\u0435 \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u0435"
+    - Language: 2
+      Translate: Nouveau nom
+    - Language: 3
+      Translate: Neuer Name
+    - Language: 4
+      Translate: Nuovo nome
+    - Language: 5
+      Translate: Novo nome
+    - Language: 6
+      Translate: Nuevo nombre
+    - Language: 7
+      Translate: Yeni isim
+  - Key: Main/UploadTo
+    Items:
+    - Language: 0
+      Translate: Upload To
+    - Language: 1
+      Translate: "\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044C"
+    - Language: 2
+      Translate: "T\xE9l\xE9charger"
+    - Language: 3
+      Translate: Herunterladen
+    - Language: 4
+      Translate: Scarica
+    - Language: 5
+      Translate: Descarregar
+    - Language: 6
+      Translate: Descargar
+    - Language: 7
+      Translate: "\u0130ndir"
+  - Key: Main/ViewFlowCompleted
+    Items:
+    - Language: 0
+      Translate: Completed {0}
+    - Language: 1
+      Translate: "\u0412\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u043E {0}"
+    - Language: 2
+      Translate: "Ex\xE9cut\xE9 {0}"
+    - Language: 3
+      Translate: "Durchgef\xFChrt {0}"
+    - Language: 4
+      Translate: Eseguito {0}
+    - Language: 5
+      Translate: Realizado {0}
+    - Language: 6
+      Translate: Realizado {0}
+    - Language: 7
+      Translate: "Ger\xE7ekle\u015Ftirildi {0}"
+  - Key: Main/ViewFlowCompletedDescription
+    Items:
+    - Language: 0
+      Translate: 'Days: <b>{0}</b>
+
+        Created: <b>{1}</b>'
+    - Language: 1
+      Translate: "\u0414\u043D\u0435\u0439: <b>{0}</b>\n\u0421\u043E\u0437\u0434\u0430\u043D\u043E:
+        <b>{1}</b>"
+    - Language: 2
+      Translate: "Journ\xE9es\r: <b>{0}</b>\n\xC9tabli: <b>{1}</b>"
+    - Language: 3
+      Translate: "Tage\r: <b>{0}</b>\nErstellt: <b>{0}</b>"
+    - Language: 4
+      Translate: "Giorni\r\r: <b>{0}</b>\nCreato: <b>{0}</b>"
+    - Language: 5
+      Translate: "Dias\r\r: <b>{0}</b>\nCriado: <b>{0}</b>"
+    - Language: 6
+      Translate: "D\xEDas\r\r\r: <b>{0}</b>\nCreado: <b>{0}</b>"
+    - Language: 7
+      Translate: "G\xFCnler\r: <b>{0}</b>\nOlu\u015Fturuldu: <b>{0}</b>"
+  - Key: Main/ViewFlowTitleCurrentProgress
+    Items:
+    - Language: 0
+      Translate: "Completed \n{0}"
+    - Language: 1
+      Translate: "\u0412\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u043E\n{0}"
+    - Language: 2
+      Translate: "Ex\xE9cut\xE9\n{0}"
+    - Language: 3
+      Translate: "Durchgef\xFChrt\r\n{0}"
+    - Language: 4
+      Translate: 'Eseguito
+
+        {0}'
+    - Language: 5
+      Translate: 'Realizado
+
+        {0}'
+    - Language: 6
+      Translate: 'Realizado
+
+        {0}'
+    - Language: 7
+      Translate: "Ger\xE7ekle\u015Ftirildi\r\n{0}"
+  - Key: Main/Week
+    Items:
+    - Language: 0
+      Translate: Week
+    - Language: 1
+      Translate: "\u041D\u0435\u0434\u0435\u043B\u044F"
+    - Language: 2
+      Translate: Semaine
+    - Language: 3
+      Translate: Woche
+    - Language: 4
+      Translate: Settimana
+    - Language: 5
+      Translate: Semana
+    - Language: 6
+      Translate: Semana
+    - Language: 7
+      Translate: 'Hafta:'
+  - Key: Main/WeeklyActivity
+    Items:
+    - Language: 0
+      Translate: Weeks overview
+    - Language: 1
+      Translate: "\u041E\u0431\u0437\u043E\u0440 \u043D\u0435\u0434\u0435\u043B\u044C"
+    - Language: 2
+      Translate: "Aper\xE7u de la semaine"
+    - Language: 3
+      Translate: "Wochen\xFCbersicht"
+    - Language: 4
+      Translate: Panoramica della settimana
+    - Language: 5
+      Translate: "Vis\xE3o geral da semana"
+    - Language: 6
+      Translate: Resumen de la semana
+    - Language: 7
+      Translate: "Haftaya genel bak\u0131\u015F"
+  - Key: Main/WeeksPassed
+    Items:
+    - Language: 0
+      Translate: Weeks of the year
+    - Language: 1
+      Translate: "\u041D\u0435\u0434\u0435\u043B\u0438 \u0433\u043E\u0434\u0430"
+    - Language: 2
+      Translate: "Semaines de l'ann\xE9e"
+    - Language: 3
+      Translate: Wochen des Jahres
+    - Language: 4
+      Translate: Settimane dell'anno
+    - Language: 5
+      Translate: Semanas do ano
+    - Language: 6
+      Translate: "Semanas del a\xF1o"
+    - Language: 7
+      Translate: "Y\u0131l\u0131n Haftalar\u0131"
+  - Key: Main/YearStatsDaysLeft
+    Items:
+    - Language: 0
+      Translate: left
+    - Language: 1
+      Translate: "\u043E\u0441\u0442\u0430\u043B\u043E\u0441\u044C"
+    - Language: 2
+      Translate: gauche
+    - Language: 3
+      Translate: "\xFCbrig\r"
+    - Language: 4
+      Translate: "sinistra\r"
+    - Language: 5
+      Translate: "falta\r"
+    - Language: 6
+      Translate: izquierda
+    - Language: 7
+      Translate: kalan
+  - Key: Main/Yesterday
+    Items:
+    - Language: 0
+      Translate: Yesterday
+    - Language: 1
+      Translate: "\u0412\u0447\u0435\u0440\u0430"
+    - Language: 2
+      Translate: Hier
+    - Language: 3
+      Translate: Gestern
+    - Language: 4
+      Translate: Ieri
+    - Language: 5
+      Translate: Ontem
+    - Language: 6
+      Translate: Ayer
+    - Language: 7
+      Translate: "D\xFCn"
+  - Key: Other/D
+    Items:
+    - Language: 0
+      Translate: d
+    - Language: 1
+      Translate: "\u0441"
+    - Language: 2
+      Translate: j
+    - Language: 3
+      Translate: t
+    - Language: 4
+      Translate: g
+    - Language: 5
+      Translate: d
+    - Language: 6
+      Translate: d
+    - Language: 7
+      Translate: g
+  - Key: Other/Days
+    Items:
+    - Language: 0
+      Translate: day
+    - Language: 1
+      Translate: "\u0441\u0443\u0442"
+    - Language: 2
+      Translate: jou
+    - Language: 3
+      Translate: tag
+    - Language: 4
+      Translate: gio
+    - Language: 5
+      Translate: dia
+    - Language: 6
+      Translate: "d\xEDa"
+    - Language: 7
+      Translate: "g\xFCn"
+  - Key: Other/H
+    Items:
+    - Language: 0
+      Translate: h
+    - Language: 1
+      Translate: "\u0447"
+    - Language: 2
+      Translate: h
+    - Language: 3
+      Translate: s
+    - Language: 4
+      Translate: o
+    - Language: 5
+      Translate: h
+    - Language: 6
+      Translate: h
+    - Language: 7
+      Translate: sa
+  - Key: Other/Hours
+    Items:
+    - Language: 0
+      Translate: hou
+    - Language: 1
+      Translate: "\u0447\u0430\u0441"
+    - Language: 2
+      Translate: heu
+    - Language: 3
+      Translate: stu
+    - Language: 4
+      Translate: ora
+    - Language: 5
+      Translate: hor
+    - Language: 6
+      Translate: hor
+    - Language: 7
+      Translate: saa
+  - Key: Other/M
+    Items:
+    - Language: 0
+      Translate: m
+    - Language: 1
+      Translate: "\u043C"
+    - Language: 2
+      Translate: m
+    - Language: 3
+      Translate: m
+    - Language: 4
+      Translate: m
+    - Language: 5
+      Translate: m
+    - Language: 6
+      Translate: m
+    - Language: 7
+      Translate: d
+  - Key: Other/Minutes
+    Items:
+    - Language: 0
+      Translate: min
+    - Language: 1
+      Translate: "\u043C\u0438\u043D"
+    - Language: 2
+      Translate: min
+    - Language: 3
+      Translate: min
+    - Language: 4
+      Translate: min
+    - Language: 5
+      Translate: min
+    - Language: 6
+      Translate: min
+    - Language: 7
+      Translate: dak
+  - Key: Other/MonthFullApril
+    Items:
+    - Language: 0
+      Translate: April
+    - Language: 1
+      Translate: "\u0410\u043F\u0440\u0435\u043B\u044C"
+    - Language: 2
+      Translate: Avril
+    - Language: 3
+      Translate: April
+    - Language: 4
+      Translate: Aprile
+    - Language: 5
+      Translate: Abril
+    - Language: 6
+      Translate: Abril
+    - Language: 7
+      Translate: Nisan
+  - Key: Other/MonthFullAugust
+    Items:
+    - Language: 0
+      Translate: August
+    - Language: 1
+      Translate: "\u0410\u0432\u0433\u0443\u0441\u0442"
+    - Language: 2
+      Translate: "Ao\xFBt"
+    - Language: 3
+      Translate: August
+    - Language: 4
+      Translate: Agosto
+    - Language: 5
+      Translate: Agosto
+    - Language: 6
+      Translate: Agosto
+    - Language: 7
+      Translate: "A\u011Fustos"
+  - Key: Other/MonthFullDecember
+    Items:
+    - Language: 0
+      Translate: December
+    - Language: 1
+      Translate: "\u0414\u0435\u043A\u0430\u0431\u0440\u044C"
+    - Language: 2
+      Translate: "D\xE9cembre"
+    - Language: 3
+      Translate: Dezember
+    - Language: 4
+      Translate: Dicembre
+    - Language: 5
+      Translate: Dezembro
+    - Language: 6
+      Translate: Diciembre
+    - Language: 7
+      Translate: "Aral\u0131k"
+  - Key: Other/MonthFullFebruary
+    Items:
+    - Language: 0
+      Translate: February
+    - Language: 1
+      Translate: "\u0424\u0435\u0432\u0440\u0430\u043B\u044C"
+    - Language: 2
+      Translate: "F\xE9vrier"
+    - Language: 3
+      Translate: Februar
+    - Language: 4
+      Translate: Febbraio
+    - Language: 5
+      Translate: Fevereiro
+    - Language: 6
+      Translate: Febrero
+    - Language: 7
+      Translate: "\u015Eubat"
+  - Key: Other/MonthFullJanuary
+    Items:
+    - Language: 0
+      Translate: January
+    - Language: 1
+      Translate: "\u042F\u043D\u0432\u0430\u0440\u044C"
+    - Language: 2
+      Translate: Janvier
+    - Language: 3
+      Translate: Januar
+    - Language: 4
+      Translate: Gennaio
+    - Language: 5
+      Translate: Janeiro
+    - Language: 6
+      Translate: Enero
+    - Language: 7
+      Translate: Ocak
+  - Key: Other/MonthFullJuly
+    Items:
+    - Language: 0
+      Translate: July
+    - Language: 1
+      Translate: "\u0418\u044E\u043B\u044C"
+    - Language: 2
+      Translate: Juillet
+    - Language: 3
+      Translate: Juli
+    - Language: 4
+      Translate: Luglio
+    - Language: 5
+      Translate: Julho
+    - Language: 6
+      Translate: Julio
+    - Language: 7
+      Translate: Temmuz
+  - Key: Other/MonthFullJune
+    Items:
+    - Language: 0
+      Translate: June
+    - Language: 1
+      Translate: "\u0418\u044E\u043D\u044C"
+    - Language: 2
+      Translate: Juin
+    - Language: 3
+      Translate: Juni
+    - Language: 4
+      Translate: Giugno
+    - Language: 5
+      Translate: Junho
+    - Language: 6
+      Translate: Junio
+    - Language: 7
+      Translate: Haziran
+  - Key: Other/MonthFullMarch
+    Items:
+    - Language: 0
+      Translate: March
+    - Language: 1
+      Translate: "\u041C\u0430\u0440\u0442"
+    - Language: 2
+      Translate: Mars
+    - Language: 3
+      Translate: "M\xE4rz"
+    - Language: 4
+      Translate: Marzo
+    - Language: 5
+      Translate: "Mar\xE7o"
+    - Language: 6
+      Translate: Marzo
+    - Language: 7
+      Translate: Mart
+  - Key: Other/MonthFullMay
+    Items:
+    - Language: 0
+      Translate: May
+    - Language: 1
+      Translate: "\u041C\u0430\u0439"
+    - Language: 2
+      Translate: Mai
+    - Language: 3
+      Translate: Mai
+    - Language: 4
+      Translate: Maggio
+    - Language: 5
+      Translate: Maio
+    - Language: 6
+      Translate: Mayo
+    - Language: 7
+      Translate: "May\u0131s"
+  - Key: Other/MonthFullNovember
+    Items:
+    - Language: 0
+      Translate: November
+    - Language: 1
+      Translate: "\u041D\u043E\u044F\u0431\u0440\u044C"
+    - Language: 2
+      Translate: Novembre
+    - Language: 3
+      Translate: November
+    - Language: 4
+      Translate: Novembre
+    - Language: 5
+      Translate: Novembro
+    - Language: 6
+      Translate: Noviembre
+    - Language: 7
+      Translate: "Kas\u0131m"
+  - Key: Other/MonthFullOctober
+    Items:
+    - Language: 0
+      Translate: October
+    - Language: 1
+      Translate: "\u041E\u043A\u0442\u044F\u0431\u0440\u044C"
+    - Language: 2
+      Translate: Octobre
+    - Language: 3
+      Translate: Oktober
+    - Language: 4
+      Translate: Ottobre
+    - Language: 5
+      Translate: Outubro
+    - Language: 6
+      Translate: Octubre
+    - Language: 7
+      Translate: Ekim
+  - Key: Other/MonthFullSeptember
+    Items:
+    - Language: 0
+      Translate: September
+    - Language: 1
+      Translate: "\u0421\u0435\u043D\u0442\u044F\u0431\u0440\u044C"
+    - Language: 2
+      Translate: Septembre
+    - Language: 3
+      Translate: September
+    - Language: 4
+      Translate: Settembre
+    - Language: 5
+      Translate: Setembro
+    - Language: 6
+      Translate: Septiembre
+    - Language: 7
+      Translate: "Eyl\xFCl"
+  - Key: Other/MonthShortApril
+    Items:
+    - Language: 0
+      Translate: Apr
+    - Language: 1
+      Translate: "\u0410\u043F\u0440"
+    - Language: 2
+      Translate: Avr
+    - Language: 3
+      Translate: Apr
+    - Language: 4
+      Translate: Apr
+    - Language: 5
+      Translate: Abr
+    - Language: 6
+      Translate: Abr
+    - Language: 7
+      Translate: Nis
+  - Key: Other/MonthShortAugust
+    Items:
+    - Language: 0
+      Translate: Aug
+    - Language: 1
+      Translate: "\u0410\u0432\u0433"
+    - Language: 2
+      Translate: "Ao\xFB"
+    - Language: 3
+      Translate: Aug
+    - Language: 4
+      Translate: Ago
+    - Language: 5
+      Translate: Ago
+    - Language: 6
+      Translate: Ago
+    - Language: 7
+      Translate: "A\u011Fu"
+  - Key: Other/MonthShortDecember
+    Items:
+    - Language: 0
+      Translate: Dec
+    - Language: 1
+      Translate: "\u0414\u0435\u043A"
+    - Language: 2
+      Translate: "D\xE9c"
+    - Language: 3
+      Translate: Dez
+    - Language: 4
+      Translate: Dic
+    - Language: 5
+      Translate: Dez
+    - Language: 6
+      Translate: Dic
+    - Language: 7
+      Translate: Ara
+  - Key: Other/MonthShortFebruary
+    Items:
+    - Language: 0
+      Translate: Feb
+    - Language: 1
+      Translate: "\u0424\u0435\u0432"
+    - Language: 2
+      Translate: "F\xE9v"
+    - Language: 3
+      Translate: Feb
+    - Language: 4
+      Translate: Feb
+    - Language: 5
+      Translate: Fev
+    - Language: 6
+      Translate: Feb
+    - Language: 7
+      Translate: "\u015Eub"
+  - Key: Other/MonthShortJanuary
+    Items:
+    - Language: 0
+      Translate: Jan
+    - Language: 1
+      Translate: "\u042F\u043D\u0432"
+    - Language: 2
+      Translate: Jan
+    - Language: 3
+      Translate: Jan
+    - Language: 4
+      Translate: Gen
+    - Language: 5
+      Translate: Jan
+    - Language: 6
+      Translate: Ene
+    - Language: 7
+      Translate: Oca
+  - Key: Other/MonthShortJuly
+    Items:
+    - Language: 0
+      Translate: Jul
+    - Language: 1
+      Translate: "\u0418\u044E\u043B"
+    - Language: 2
+      Translate: Jui
+    - Language: 3
+      Translate: Jul
+    - Language: 4
+      Translate: Lug
+    - Language: 5
+      Translate: Jul
+    - Language: 6
+      Translate: Jul
+    - Language: 7
+      Translate: Tem
+  - Key: Other/MonthShortJune
+    Items:
+    - Language: 0
+      Translate: Jun
+    - Language: 1
+      Translate: "\u0418\u044E\u043D"
+    - Language: 2
+      Translate: Jui
+    - Language: 3
+      Translate: Jun
+    - Language: 4
+      Translate: Giu
+    - Language: 5
+      Translate: Jun
+    - Language: 6
+      Translate: Jun
+    - Language: 7
+      Translate: Haz
+  - Key: Other/MonthShortMarch
+    Items:
+    - Language: 0
+      Translate: Mar
+    - Language: 1
+      Translate: "\u041C\u0430\u0440"
+    - Language: 2
+      Translate: Mar
+    - Language: 3
+      Translate: "M\xE4r"
+    - Language: 4
+      Translate: Mar
+    - Language: 5
+      Translate: Mar
+    - Language: 6
+      Translate: Mar
+    - Language: 7
+      Translate: Mar
+  - Key: Other/MonthShortMay
+    Items:
+    - Language: 0
+      Translate: May
+    - Language: 1
+      Translate: "\u041C\u0430\u0439"
+    - Language: 2
+      Translate: Mai
+    - Language: 3
+      Translate: Mai
+    - Language: 4
+      Translate: Mag
+    - Language: 5
+      Translate: Mai
+    - Language: 6
+      Translate: May
+    - Language: 7
+      Translate: May
+  - Key: Other/MonthShortNovember
+    Items:
+    - Language: 0
+      Translate: Nov
+    - Language: 1
+      Translate: "\u041D\u043E\u044F"
+    - Language: 2
+      Translate: Nov
+    - Language: 3
+      Translate: Nov
+    - Language: 4
+      Translate: Nov
+    - Language: 5
+      Translate: Nov
+    - Language: 6
+      Translate: Nov
+    - Language: 7
+      Translate: Kas
+  - Key: Other/MonthShortOctober
+    Items:
+    - Language: 0
+      Translate: Oct
+    - Language: 1
+      Translate: "\u041E\u043A\u0442"
+    - Language: 2
+      Translate: Oct
+    - Language: 3
+      Translate: Okt
+    - Language: 4
+      Translate: Ott
+    - Language: 5
+      Translate: Out
+    - Language: 6
+      Translate: Oct
+    - Language: 7
+      Translate: Eki
+  - Key: Other/MonthShortSeptember
+    Items:
+    - Language: 0
+      Translate: Sep
+    - Language: 1
+      Translate: "\u0421\u0435\u043D"
+    - Language: 2
+      Translate: Sep
+    - Language: 3
+      Translate: Sep
+    - Language: 4
+      Translate: Set
+    - Language: 5
+      Translate: Set
+    - Language: 6
+      Translate: Sep
+    - Language: 7
+      Translate: Eyl
+  - Key: Other/S
+    Items:
+    - Language: 0
+      Translate: s
+    - Language: 1
+      Translate: "\u0441"
+    - Language: 2
+      Translate: s
+    - Language: 3
+      Translate: s
+    - Language: 4
+      Translate: s
+    - Language: 5
+      Translate: s
+    - Language: 6
+      Translate: s
+    - Language: 7
+      Translate: sn
+  - Key: Other/Seconds
+    Items:
+    - Language: 0
+      Translate: sec
+    - Language: 1
+      Translate: "\u0441\u0435\u043A"
+    - Language: 2
+      Translate: sec
+    - Language: 3
+      Translate: sek
+    - Language: 4
+      Translate: sec
+    - Language: 5
+      Translate: seg
+    - Language: 6
+      Translate: seg
+    - Language: 7
+      Translate: san
+  - Key: Other/WeekDayFullFriday
+    Items:
+    - Language: 0
+      Translate: Friday
+    - Language: 1
+      Translate: "\u041F\u044F\u0442\u043D\u0438\u0446\u0430"
+    - Language: 2
+      Translate: Vendredi
+    - Language: 3
+      Translate: Freitag
+    - Language: 4
+      Translate: "Venerd\xEC"
+    - Language: 5
+      Translate: Sixta-feira
+    - Language: 6
+      Translate: "S\xE1bado"
+    - Language: 7
+      Translate: Cuma
+  - Key: Other/WeekDayFullMonday
+    Items:
+    - Language: 0
+      Translate: Monday
+    - Language: 1
+      Translate: "\u041F\u043E\u043D\u0435\u0434\u0435\u043B\u044C\u043D\u0438\u043A"
+    - Language: 2
+      Translate: Lundi
+    - Language: 3
+      Translate: Montag
+    - Language: 4
+      Translate: "Luned\xEC"
+    - Language: 5
+      Translate: Segunda-feira
+    - Language: 6
+      Translate: Lunes
+    - Language: 7
+      Translate: Pazartesi
+  - Key: Other/WeekDayFullSaturday
+    Items:
+    - Language: 0
+      Translate: Saturday
+    - Language: 1
+      Translate: "\u0421\u0443\u0431\u0431\u043E\u0442\u0430"
+    - Language: 2
+      Translate: Samedi
+    - Language: 3
+      Translate: Samstag
+    - Language: 4
+      Translate: Sabato
+    - Language: 5
+      Translate: "S\xE1bado"
+    - Language: 6
+      Translate: "S\xE1bado"
+    - Language: 7
+      Translate: Cumartesi
+  - Key: Other/WeekDayFullSunday
+    Items:
+    - Language: 0
+      Translate: Sunday
+    - Language: 1
+      Translate: "\u0412\u043E\u0441\u043A\u0440\u0435\u0441\u0435\u043D\u044C\u0435"
+    - Language: 2
+      Translate: Dimanche
+    - Language: 3
+      Translate: Sonntag
+    - Language: 4
+      Translate: Domenica
+    - Language: 5
+      Translate: Domingo
+    - Language: 6
+      Translate: Domingo
+    - Language: 7
+      Translate: Pazar
+  - Key: Other/WeekDayFullThursday
+    Items:
+    - Language: 0
+      Translate: Thursday
+    - Language: 1
+      Translate: "\u0427\u0435\u0442\u0432\u0435\u0440\u0433"
+    - Language: 2
+      Translate: Jeudi
+    - Language: 3
+      Translate: Donnerstag
+    - Language: 4
+      Translate: "Gioved\xEC"
+    - Language: 5
+      Translate: Quinta-feira
+    - Language: 6
+      Translate: Jueves
+    - Language: 7
+      Translate: "Per\u015Fembe"
+  - Key: Other/WeekDayFullTuesday
+    Items:
+    - Language: 0
+      Translate: Tuesday
+    - Language: 1
+      Translate: "\u0412\u0442\u043E\u0440\u043D\u0438\u043A"
+    - Language: 2
+      Translate: Mardi
+    - Language: 3
+      Translate: Dienstag
+    - Language: 4
+      Translate: "Marted\xEC"
+    - Language: 5
+      Translate: "Ter\xE7a-feira"
+    - Language: 6
+      Translate: Martes
+    - Language: 7
+      Translate: "Sal\u0131"
+  - Key: Other/WeekDayFullWednesday
+    Items:
+    - Language: 0
+      Translate: Wednesday
+    - Language: 1
+      Translate: "\u0421\u0440\u0435\u0434\u0430"
+    - Language: 2
+      Translate: Mercredi
+    - Language: 3
+      Translate: Mittwoch
+    - Language: 4
+      Translate: "Mercoled\xEC"
+    - Language: 5
+      Translate: Quarta-feira
+    - Language: 6
+      Translate: "Mi\xE9rcoles"
+    - Language: 7
+      Translate: "\xC7ar\u015Famba"
+  - Key: Other/WeekDayShortFriday
+    Items:
+    - Language: 0
+      Translate: Fr
+    - Language: 1
+      Translate: "\u041F\u0442"
+    - Language: 2
+      Translate: Ve
+    - Language: 3
+      Translate: Fr
+    - Language: 4
+      Translate: Ve
+    - Language: 5
+      Translate: Sex
+    - Language: 6
+      Translate: Vi
+    - Language: 7
+      Translate: Cum
+  - Key: Other/WeekDayShortMonday
+    Items:
+    - Language: 0
+      Translate: Mo
+    - Language: 1
+      Translate: "\u041F\u043D"
+    - Language: 2
+      Translate: Lu
+    - Language: 3
+      Translate: Mo
+    - Language: 4
+      Translate: Lu
+    - Language: 5
+      Translate: Seg
+    - Language: 6
+      Translate: Lu
+    - Language: 7
+      Translate: Pzt
+  - Key: Other/WeekDayShortSaturday
+    Items:
+    - Language: 0
+      Translate: Sa
+    - Language: 1
+      Translate: "\u0421\u0431"
+    - Language: 2
+      Translate: Sa
+    - Language: 3
+      Translate: Sa
+    - Language: 4
+      Translate: Sa
+    - Language: 5
+      Translate: "S\xE1b"
+    - Language: 6
+      Translate: "S\xE1"
+    - Language: 7
+      Translate: Cmt
+  - Key: Other/WeekDayShortSunday
+    Items:
+    - Language: 0
+      Translate: Su
+    - Language: 1
+      Translate: "\u0412\u0441"
+    - Language: 2
+      Translate: Di
+    - Language: 3
+      Translate: So
+    - Language: 4
+      Translate: Do
+    - Language: 5
+      Translate: Dom
+    - Language: 6
+      Translate: Do
+    - Language: 7
+      Translate: Paz
+  - Key: Other/WeekDayShortThursday
+    Items:
+    - Language: 0
+      Translate: Th
+    - Language: 1
+      Translate: "\u0427\u0442"
+    - Language: 2
+      Translate: Je
+    - Language: 3
+      Translate: Do
+    - Language: 4
+      Translate: Gi
+    - Language: 5
+      Translate: Qui
+    - Language: 6
+      Translate: Ju
+    - Language: 7
+      Translate: Per
+  - Key: Other/WeekDayShortTuesday
+    Items:
+    - Language: 0
+      Translate: Tu
+    - Language: 1
+      Translate: "\u0412\u0442"
+    - Language: 2
+      Translate: Ma
+    - Language: 3
+      Translate: Di
+    - Language: 4
+      Translate: Ma
+    - Language: 5
+      Translate: Ter
+    - Language: 6
+      Translate: Ma
+    - Language: 7
+      Translate: Sal
+  - Key: Other/WeekDayShortWednesday
+    Items:
+    - Language: 0
+      Translate: We
+    - Language: 1
+      Translate: "\u0421\u0440"
+    - Language: 2
+      Translate: Me
+    - Language: 3
+      Translate: Mi
+    - Language: 4
+      Translate: Me
+    - Language: 5
+      Translate: Qua
+    - Language: 6
+      Translate: Mi
+    - Language: 7
+      Translate: "\xC7ar"
+  - Key: Thanks/Icon1
+    Items:
+    - Language: 0
+      Translate: 
+    - Language: 1
+      Translate: 
+    - Language: 2
+      Translate: 
+    - Language: 3
+      Translate: 
+    - Language: 4
+      Translate: 
+    - Language: 5
+      Translate: 
+    - Language: 6
+      Translate: 
+    - Language: 7
+      Translate: 
+  - Key: Thanks/Icon2
+    Items:
+    - Language: 0
+      Translate: 1
+    - Language: 1
+      Translate: 1
+    - Language: 2
+      Translate: 1
+    - Language: 3
+      Translate: 1
+    - Language: 4
+      Translate: 1
+    - Language: 5
+      Translate: 1
+    - Language: 6
+      Translate: 1
+    - Language: 7
+      Translate: 1
+  - Key: Thanks/Link1
+    Items:
+    - Language: 0
+      Translate: 
+    - Language: 1
+      Translate: 
+    - Language: 2
+      Translate: 
+    - Language: 3
+      Translate: 
+    - Language: 4
+      Translate: 
+    - Language: 5
+      Translate: 
+    - Language: 6
+      Translate: 
+    - Language: 7
+      Translate: 
+  - Key: Thanks/Link2
+    Items:
+    - Language: 0
+      Translate: https://www.yearcompass.com/
+    - Language: 1
+      Translate: https://www.yearcompass.com/
+    - Language: 2
+      Translate: https://www.yearcompass.com/
+    - Language: 3
+      Translate: https://www.yearcompass.com/
+    - Language: 4
+      Translate: https://www.yearcompass.com/
+    - Language: 5
+      Translate: https://www.yearcompass.com/
+    - Language: 6
+      Translate: https://www.yearcompass.com/
+    - Language: 7
+      Translate: https://www.yearcompass.com/
+  - Key: Thanks/Title1
+    Items:
+    - Language: 0
+      Translate: 
+    - Language: 1
+      Translate: 
+    - Language: 2
+      Translate: 
+    - Language: 3
+      Translate: 
+    - Language: 4
+      Translate: 
+    - Language: 5
+      Translate: 
+    - Language: 6
+      Translate: 
+    - Language: 7
+      Translate: 
+  - Key: Thanks/Title2
+    Items:
+    - Language: 0
+      Translate: YEAR COMPASS
+    - Language: 1
+      Translate: YEAR COMPASS
+    - Language: 2
+      Translate: YEAR COMPASS
+    - Language: 3
+      Translate: YEAR COMPASS
+    - Language: 4
+      Translate: YEAR COMPASS
+    - Language: 5
+      Translate: YEAR COMPASS
+    - Language: 6
+      Translate: YEAR COMPASS
+    - Language: 7
+      Translate: YEAR COMPASS
+  - Key: Tips/ConnectionsLinkAdditional
+    Items:
+    - Language: 0
+      Translate: andrew.olenk@gmail.com
+    - Language: 1
+      Translate: andrew.olenk@gmail.com
+    - Language: 2
+      Translate: andrew.olenk@gmail.com
+    - Language: 3
+      Translate: andrew.olenk@gmail.com
+    - Language: 4
+      Translate: andrew.olenk@gmail.com
+    - Language: 5
+      Translate: andrew.olenk@gmail.com
+    - Language: 6
+      Translate: andrew.olenk@gmail.com
+    - Language: 7
+      Translate: andrew.olenk@gmail.com
+  - Key: Tips/ConnectionsLinkFull
+    Items:
+    - Language: 0
+      Translate: home.seatodo@gmail.com
+    - Language: 1
+      Translate: home.seatodo@gmail.com
+    - Language: 2
+      Translate: home.seatodo@gmail.com
+    - Language: 3
+      Translate: home.seatodo@gmail.com
+    - Language: 4
+      Translate: home.seatodo@gmail.com
+    - Language: 5
+      Translate: home.seatodo@gmail.com
+    - Language: 6
+      Translate: home.seatodo@gmail.com
+    - Language: 7
+      Translate: home.seatodo@gmail.com
+  - Key: Tips/ConnectionsTextAdditional
+    Items:
+    - Language: 0
+      Translate: 'If you have personal questions, suggestions, etc.:'
+    - Language: 1
+      Translate: "\u0415\u0441\u043B\u0438 \u0443 \u0432\u0430\u0441 \u0435\u0441\u0442\u044C
+        \u043B\u0438\u0447\u043D\u044B\u0435 \u0432\u043E\u043F\u0440\u043E\u0441\u044B,
+        \u043F\u0440\u0435\u0434\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0438
+        \u0442.\u0434.:"
+    - Language: 2
+      Translate: 'Si vous avez des questions personnelles, des suggestions, etc.:'
+    - Language: 3
+      Translate: "Wenn du pers\xF6nliche Fragen, Vorschl\xE4ge usw. hast:"
+    - Language: 4
+      Translate: 'Se hai domande personali, suggerimenti, etc.:'
+    - Language: 5
+      Translate: "Se tiver d\xFAvidas pessoais, sugest\xF5es, etc.:"
+    - Language: 6
+      Translate: 'Si tiene preguntas personales, sugerencias, etc.:'
+    - Language: 7
+      Translate: "Ki\u015Fisel sorular\u0131n\u0131z, \xF6nerileriniz vb. varsa:"
+  - Key: Tips/ConnectionsTextFull
+    Items:
+    - Language: 0
+      Translate: 'Hi, thanks for using!
+
+        If you have questions or suggestions
+        for improving the app, then write to the address:'
+    - Language: 1
+      Translate: "\u041F\u0440\u0438\u0432\u0435\u0442, \u0441\u043F\u0430\u0441\u0438\u0431\u043E
+        \u0437\u0430 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435!\r\n\u0415\u0441\u043B\u0438
+        \u0443 \u0432\u0430\u0441 \u0435\u0441\u0442\u044C \u0432\u043E\u043F\u0440\u043E\u0441\u044B
+        \u0438\u043B\u0438 \u043F\u0440\u0435\u0434\u043B\u043E\u0436\u0435\u043D\u0438\u044F
+        \u043F\u043E \u0443\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u044E \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F,
+        \u0442\u043E \u043F\u0438\u0448\u0438\u0442\u0435 \u043F\u043E \u0430\u0434\u0440\u0435\u0441\u0443:"
+    - Language: 2
+      Translate: "Salut, merci d'utiliser! \nSi vous avez des questions ou des suggestions
+        pour am\xE9liorer l'application, veuillez \xE9crire \xE0:"
+    - Language: 3
+      Translate: "Hallo, danke f\xFCr die Verwendung! \nWenn du Fragen oder Anregungen
+        zur Verbesserung der Anwendung hast, schreibe bitte an:"
+    - Language: 4
+      Translate: "Ciao, grazie per l'utilizzo! \nPer domande o suggerimenti per migliorare
+        l'applicazione, scrivere a:"
+    - Language: 5
+      Translate: "Ol\xE1, obrigado por utilizar! \nSe tiver alguma d\xFAvida ou sugest\xE3o
+        para melhorar a aplica\xE7\xE3o, escreva para:"
+    - Language: 6
+      Translate: "Hola, \xA1gracias por usar! \nSi tiene alguna pregunta o sugerencia
+        para mejorar la aplicaci\xF3n, escriba a:"
+    - Language: 7
+      Translate: "Merhaba, kulland\u0131\u011F\u0131n\u0131z i\xE7in te\u015Fekk\xFCrler!
+        \nUygulamay\u0131 geli\u015Ftirmek i\xE7in herhangi bir sorunuz veya \xF6neriniz
+        varsa, l\xFCtfen \u015Fu adrese yaz\u0131n:"
+  - Key: Tips/SeaCalendarTip
+    Items:
+    - Language: 0
+      Translate: "<b><size=37>What is the Sea calendar?</size></b>\n\n\u2022 Sometimes
+        it is very important to remain calm in the midst of a lot of unnecessary
+        information and noisy environment. Such things can distract from the <b>main
+        things</b> and interfere with <b>calm decision-making</b>.\n\n\u2022 Sea
+        Calendar is a supplement to the main goal of the app - help in <b>long-term
+        movement</b> to your goals or acquisition of <b>new habits</b>.\n\n<b><size=37>How
+        to use?</size></b>\n\n\u2022 Every day you can evaluate how high-quality
+        it was. There are 5 quality categories for this purpose: <b><color=#00C4FF>Full
+        calm</color>, <color=#199EF2>Calm</color>, <color=#3D66DD>Waves</color>,
+        <color=#6328CC>Noizy</color>, <color=#7C00BF>Storm</color></b>.\nEach day
+        can be designated by one of these categories.\n\n\u2022 While using the calendar,
+        you will be able to assess how calm and high-quality everything turns out.
+        And based on this, you can more understand whether something needs to change.\n\n<b><size=37>Days
+        quality</size></b>\n\n<b><color=#00C4FF>Full rest</color></b>\nDays dedicated
+        to full rest and recovery.\n\n<b><color=#199EF2>Calm</color></b>\nCalm and
+        fulfilling days.\n\n<b><color=#3D66DD>Waves</color></b>\nDays with awkward
+        moments.\n\n<b><color=#6328CC>Noizy</color></b>\nDays in which disturbing
+        moments or events may have occurred.\n\n<b><color=#7C00BF>Storm</color></b>\nDays
+        in which very difficult moments or events could occur that could affect mental
+        health."
+    - Language: 1
+      Translate: "<b><size=37>\u0427\u0442\u043E \u0442\u0430\u043A\u043E\u0435 Sea
+        \u043A\u0430\u043B\u0435\u043D\u0434\u0430\u0440\u044C?</size></b>\n\n\u2022
+        \u0418\u043D\u043E\u0433\u0434\u0430 \u043E\u0447\u0435\u043D\u044C \u0432\u0430\u0436\u043D\u043E
+        \u0441\u043E\u0445\u0440\u0430\u043D\u044F\u0442\u044C \u0441\u043F\u043E\u043A\u043E\u0439\u0441\u0442\u0432\u0438\u0435
+        \u0441\u0440\u0435\u0434\u0438 \u043C\u043D\u043E\u0436\u0435\u0441\u0442\u0432\u0430
+        \u043D\u0435\u043D\u0443\u0436\u043D\u043E\u0439 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0438
+        \u0438 \u0448\u0443\u043C\u043D\u043E\u0439 \u043E\u0431\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0438.
+        \u0422\u0430\u043A\u0438\u0435 \u0432\u0435\u0449\u0438 \u043C\u043E\u0433\u0443\u0442
+        \u043E\u0442\u0432\u043B\u0435\u043A\u0430\u0442\u044C \u043E\u0442 <b>\u0433\u043B\u0430\u0432\u043D\u044B\u0445
+        \u0432\u0435\u0449\u0435\u0439</b> \u0438 \u043C\u0435\u0448\u0430\u0442\u044C
+        <b>\u0441\u043F\u043E\u043A\u043E\u0439\u043D\u043E\u043C\u0443 \u043F\u0440\u0438\u043D\u044F\u0442\u0438\u044E
+        \u0440\u0435\u0448\u0435\u043D\u0438\u0439</b>.\n\n\u2022 Sea \u043A\u0430\u043B\u0435\u043D\u0434\u0430\u0440\u044C
+        - \u044D\u0442\u043E \u0434\u043E\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u0435
+        \u043A \u043E\u0441\u043D\u043E\u0432\u043D\u043E\u0439 \u0446\u0435\u043B\u0438
+        \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F: \u043F\u043E\u043C\u043E\u0449\u044C
+        \u0432 \u0434\u043E\u0441\u0442\u0438\u0436\u0435\u043D\u0438\u0438 <b>\u0434\u043E\u043B\u0433\u043E\u0441\u0440\u043E\u0447\u043D\u044B\u0445
+        \u0446\u0435\u043B\u0435\u0439</b> \u0438\u043B\u0438 \u043F\u0440\u0438\u043E\u0431\u0440\u0435\u0442\u0435\u043D\u0438\u044E
+        <b>\u043D\u043E\u0432\u044B\u0445 \u043F\u0440\u0438\u0432\u044B\u0447\u0435\u043A</b>.\n\n<b><size=37>\u041A\u0430\u043A
+        \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C?</size></b>\n\n\u2022
+        \u0415\u0436\u0435\u0434\u043D\u0435\u0432\u043D\u043E \u0432\u044B \u043C\u043E\u0436\u0435\u0442\u0435
+        \u043E\u0446\u0435\u043D\u0438\u0432\u0430\u0442\u044C \u043A\u0430\u0447\u0435\u0441\u0442\u0432\u043E
+        \u043F\u0440\u043E\u0448\u0435\u0434\u0448\u0435\u0433\u043E \u0434\u043D\u044F.
+        \u0415\u0441\u0442\u044C 5 \u043A\u0430\u0442\u0435\u0433\u043E\u0440\u0438\u0439
+        \u0434\u043B\u044F \u043E\u0446\u0435\u043D\u0438\u0432\u0430\u043D\u0438\u044F:
+        <b><color=#00C4FF>\u041F\u043E\u043B\u043D\u043E\u0446\u0435\u043D\u043D\u044B\u0439
+        \u043E\u0442\u0434\u044B\u0445</color>, <color=#199EF2>\u0421\u043F\u043E\u043A\u043E\u0439\u0441\u0442\u0432\u0438\u0435</color>,
+        <color=#3D66DD>\u0412\u043E\u043B\u043D\u044B</color>, <color=#6328CC>\u0428\u0443\u043C</color>,
+        <color=#7C00BF>\u0428\u0442\u043E\u0440\u043C</color></b>.\n\u041A\u0430\u0436\u0434\u044B\u0439
+        \u0434\u0435\u043D\u044C \u043C\u043E\u0436\u0435\u0442 \u0431\u044B\u0442\u044C
+        \u043E\u0431\u043E\u0437\u043D\u0430\u0447\u0435\u043D \u043E\u0434\u043D\u043E\u0439
+        \u0438\u0437 \u044D\u0442\u0438\u0445 \u043A\u0430\u0442\u0435\u0433\u043E\u0440\u0438\u0439.\n\n\u2022
+        \u0412 \u0431\u0443\u0434\u0443\u0449\u0435\u043C \u0443 \u0432\u0430\u0441
+        \u043F\u043E\u044F\u0432\u0438\u0442\u0441\u044F \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u044C
+        \u043E\u0446\u0435\u043D\u0438\u0442\u044C \u043D\u0430\u0441\u043A\u043E\u043B\u044C\u043A\u043E
+        \u0441\u043F\u043E\u043A\u043E\u0439\u043D\u043E \u0438 \u043A\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u043E
+        \u0432\u0441\u0435 \u043F\u043E\u043B\u0443\u0447\u0430\u0435\u0442\u0441\u044F.
+        \n\u041D\u0430 \u043E\u0441\u043D\u043E\u0432\u0430\u043D\u0438\u0438 \u044D\u0442\u043E\u0433\u043E
+        \u0432\u044B \u043C\u043E\u0436\u0435\u0442\u0435 \u043B\u0443\u0447\u0448\u0435
+        \u043F\u043E\u043D\u044F\u0442\u044C, \u043D\u0443\u0436\u043D\u043E \u043B\u0438
+        \u0447\u0442\u043E-\u0442\u043E \u043C\u0435\u043D\u044F\u0442\u044C.\n\n<b><size=37>\u041A\u0430\u0447\u0435\u0441\u0442\u0432\u043E
+        \u0434\u043D\u0435\u0439</size></b>\n\n<b><color=#00C4FF>\u041F\u043E\u043B\u043D\u043E\u0446\u0435\u043D\u043D\u044B\u0439
+        \u043E\u0442\u0434\u044B\u0445</color></b>\n\u0414\u043D\u0438 \u043F\u043E\u0441\u0432\u044F\u0449\u0435\u043D\u043D\u044B\u0435
+        \u043F\u043E\u043B\u043D\u043E\u0446\u0435\u043D\u043D\u043E\u043C\u0443
+        \u043E\u0442\u0434\u044B\u0445\u0443 \u0438 \u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u044E.\n\n<b><color=#199EF2>\u0421\u043F\u043E\u043A\u043E\u0439\u0441\u0442\u0432\u0438\u0435</color></b>\n\u0421\u043F\u043E\u043A\u043E\u0439\u043D\u044B\u0435
+        \u0438 \u043F\u043E\u043B\u043D\u043E\u0446\u0435\u043D\u043D\u044B\u0435
+        \u0434\u043D\u0438.\n\n<b><color=#3D66DD>\u0412\u043E\u043B\u043D\u044B</color></b>\n\u0414\u043D\u0438,
+        \u0432 \u043A\u043E\u0442\u043E\u0440\u044B\u0445 \u0431\u044B\u043B\u0438
+        \u043D\u0435\u0443\u0434\u043E\u0431\u043D\u044B\u0435 \u043C\u043E\u043C\u0435\u043D\u0442\u044B.\n\n<b><color=#6328CC>\u0428\u0443\u043C</color></b>\n\u0414\u043D\u0438,
+        \u0432 \u043A\u043E\u0442\u043E\u0440\u044B\u0445 \u043C\u043E\u0433\u043B\u0438
+        \u043F\u0440\u043E\u0438\u0441\u0445\u043E\u0434\u0438\u0442\u044C \u0442\u0440\u0435\u0432\u043E\u0436\u043D\u044B\u0435
+        \u043C\u043E\u043C\u0435\u043D\u0442\u044B \u0438\u043B\u0438 \u0441\u043E\u0431\u044B\u0442\u0438\u044F.
+        \n\n<b><color=#7C00BF>\u0428\u0442\u043E\u0440\u043C</color></b>\n\u0414\u043D\u0438,
+        \u0432 \u043A\u043E\u0442\u043E\u0440\u044B\u0445 \u043C\u043E\u0433\u043B\u0438
+        \u043F\u0440\u043E\u0438\u0441\u0445\u043E\u0434\u0438\u0442\u044C \u043E\u0447\u0435\u043D\u044C
+        \u0442\u0440\u0443\u0434\u043D\u044B\u0435 \u043C\u043E\u043C\u0435\u043D\u0442\u044B
+        \u0438\u043B\u0438 \u0441\u043E\u0431\u044B\u0442\u0438\u044F, \u0441\u043F\u043E\u0441\u043E\u0431\u043D\u044B\u0435
+        \u043F\u043E\u0432\u043B\u0438\u044F\u0442\u044C \u043D\u0430 \u043C\u0435\u043D\u0442\u0430\u043B\u044C\u043D\u043E\u0435
+        \u0437\u0434\u043E\u0440\u043E\u0432\u044C\u0435."
+    - Language: 2
+      Translate: "<b><size=37>Qu'est-ce que Sea Calendar?</size></b>\n\n\u2022 Parfois,
+        il est tr\xE8s important de rester calme au milieu de nombreuses informations
+        inutiles et d'environnements bruyants. De telles choses peuvent d\xE9tourner
+        l'attention des choses principales et interf\xE9rer avec une prise de d\xE9cision
+        calme.\n\n\u2022 Sea Calendar est un compl\xE9ment \xE0 l'objectif principal
+        de l'application: vous aider \xE0 atteindre des objectifs \xE0 long terme
+        ou \xE0 acqu\xE9rir de nouvelles habitudes.\n\n<b><size=37>Comment l'utiliser?</size></b>\n\n\u2022
+        Chaque jour, vous pouvez \xE9valuer la qualit\xE9 de la journ\xE9e pass\xE9e.
+        Il existe 5 cat\xE9gories de notation: <b><color=#00C4FF>Repos complet</color>, 
+        <color=#199EF2>Calme</color>, <color=#3D66DD>Vagues</color>,  <color=#6328CC>Bruit</color>,
+        <color=#7C00BF>Temp\xEAte</color></b>.\nChaque jour peut se voir attribuer
+        l'une de ces cat\xE9gories.\n\n\u2022 \xC0 l'avenir, vous aurez l'opportunit\xE9
+        d'\xE9valuer \xE0 quel point tout se passe calmement et efficacement. Sur
+        cette base, vous pouvez mieux comprendre si quelque chose doit \xEAtre modifi\xE9.\n\n<b><size=37>La
+        qualit\xE9 des jours</size></b>\n\n<b><color=#00C4FF>Repos complet</color></b>\nJours
+        d\xE9di\xE9s au repos et \xE0 la r\xE9cup\xE9ration.\n\n<b><color=#199EF2>Calme</color></b>\nJours
+        calmes et \xE9panouissants.\n\n<b><color=#3D66DD>Vagues</color></b>\nJours
+        avec des moments difficiles.\n\n<b><color=#6328CC>Bruit</color></b>\nJours
+        au cours desquels des moments ou des \xE9v\xE9nements troublants ont pu se
+        produire.\n\n<b><color=#7C00BF>Temp\xEAte</color></b>\nJours au cours desquels
+        des moments ou des \xE9v\xE9nements tr\xE8s difficiles pourraient survenir
+        et affecter la sant\xE9 mentale."
+    - Language: 3
+      Translate: "<b><size=37>Was ist der Sea Kalender?</size></b>\n\n\u2022 Manchmal
+        ist es sehr wichtig, inmitten vieler unn\xF6tiger Informationen und lauter
+        Umgebungen ruhig zu bleiben. Solche Dinge k\xF6nnen von den wichtigsten Dingen
+        ablenken und die ruhige Entscheidungsfindung beeintr\xE4chtigen.\n\n\u2022
+        Der Sea Kalender ist eine Erg\xE4nzung zum Hauptzweck der Anwendung: Sie
+        sollen dabei helfen, langfristige Ziele zu erreichen oder neue Gewohnheiten
+        zu erlernen.\n\n<b><size=37>Bedienungsanleitung?</size></b>\n\n\u2022 Jeden
+        Tag kannst du die Qualit\xE4t des vorangegangenen Tages bewerten. Es gibt
+        5 Bewertungskategorien:<b> <color=#00C4FF>Vollst\xE4ndige Ruhe</color>, <color=#199EF2>Ruhe</color>,
+        <color=#3D66DD>Wellen</color>, <color=#6328CC>L\xE4rm</color>, <color=#7C00BF>Sturm</color></b>.\nJedem
+        Tag kann eine dieser Kategorien zugewiesen werden.\n\n\u2022 In Zukunft hast
+        du die M\xF6glichkeit zu bewerten, wie ruhig und effizient sich alles entwickelt.\nAuf
+        dieser Grundlage kannst du besser verstehen, ob etwas ge\xE4ndert werden
+        muss.\n\n<b><size=37>Die Qualit\xE4t der Tage</size></b>\n\n<b><color=#00C4FF>Vollst\xE4ndige
+        Ruhe</color></b>\nTage f\xFCr gute Erholung und Regeneration.\n\n<b><color=#199EF2>Ruhe</color></b>\nRuhige
+        und erf\xFCllende Tage.\n\n<b><color=#3D66DD>Wellen</color></b>\nTage mit
+        unangenehmen Momenten.\n\n<b><color=#6328CC>L\xE4rm</color></b>\nTage, an
+        denen st\xF6rende Momente oder Ereignisse aufgetreten sein k\xF6nnen.\n\n<b><color=#7C00BF>Sturm</color></b>\nTage,
+        an denen sehr schwierige Momente oder Ereignisse auftreten k\xF6nnen, die
+        die psychische Gesundheit beeintr\xE4chtigen k\xF6nnen."
+    - Language: 4
+      Translate: "<b><size=37>Cos'\xE8 il calendario Sea?</size></b>\n\n\u2022 A
+        volte \xE8 molto importante restare calmi in ambienti rumorosi e tra molte
+        informazioni non necessarie. Queste possono distrarci dalle cose pi\xF9 importanti
+        e interferire con il processo decisionale.\n\n\u2022 Il calendario Sea \xE8
+        un'aggiunta allo scopo principale dell'app: aiutarti a raggiungere obiettivi
+        a lungo termine o acquisire nuove abitudini.\n\n<b><size=37>Come va usato?</size></b>\n\n\u2022
+        Ogni giorno puoi valutare la qualit\xE0 della giornata trascorsa. Ci sono
+        5 categorie di valutazione:<b> <color=#00C4FF>Riposo completo</color>, <color=#199EF2>Quiete</color>,
+        <color=#3D66DD>Onde</color>, <color=#6328CC>Rumore</color>, <color=#7C00BF>Tempesta</color>.</b>\nA
+        ogni giorno pu\xF2 essere assegnata una di queste categorie.\n\n\u2022 In
+        futuro, avrai l'opportunit\xE0 di valutare con calma ed efficienza tutto
+        ci\xF2 che accade. \nIn base a ci\xF2, puoi capire meglio se \xE8 necessario
+        cambiare qualcosa.\n\n<b><size=37>Qualit\xE0 dei giorni</size></b>\n\n<b><color=#00C4FF>Riposo
+        completo</color></b>\nGiorni dedicati al riposo e al recupero.\n\n<b><color=#199EF2>Quiete</color></b>\nGiorni
+        calmi e appaganti.\n\n<b><color=#3D66DD>Onde</color></b>\nGiorni con momenti
+        imbarazzanti.\n\n<b><color=#6328CC>Rumore</color></b>\nGiorni in cui si sono
+        verificati momenti o eventi inquietanti.\n\n<b><color=#7C00BF>Tempesta</color></b>\nGiorni
+        in cui possono verificarsi momenti o eventi molto difficili che possono influire
+        sul benessere mentale."
+    - Language: 5
+      Translate: "<b><size=37>O que \xE9 o calend\xE1rio Sea?</size></b>\n\n\u2022
+        \xC0s vezes, \xE9 muito importante manter a calma no meio de muitas informa\xE7\xF5es
+        desnecess\xE1rias e ambientes ruidosos. Tais coisas podem distrair das principais
+        e interferir na tomada de decis\xF5es de forma calma.\n\n\u2022 O calend\xE1rio
+        Sea \xE9 um complemento ao principal objetivo da aplica\xE7\xE3o: ajud\xE1-lo
+        a atingir objetivos de longo prazo ou adquirir novos h\xE1bitos.\n\n<b><size=37>Como
+        utilizar?</size></b>\n\n\u2022 Todos os dias, pode avaliar a qualidade do
+        dia anterior. Existem 5 categorias de classifica\xE7\xE3o:<b> <color=#00C4FF>Descanso
+        total</color>, <color=#199EF2>Calma</color>, <color=#3D66DD>Ondas</color>,
+        <color=#6328CC>Ru\xEDdo</color>, <color=#7C00BF>Tempestade</color>.</b>\nA
+        cada dia pode ser atribu\xEDda uma dessas categorias.\n\n\u2022 No futuro,
+        ter\xE1 a oportunidade de avaliar a calma e efici\xEAncia de como tudo se
+        desenvolve.\nTal ir\xE1 ajud\xE1-lo a entender melhor se algo precisa ser
+        alterado.\n\n<b><size=37>A qualidade dos dias</size></b>\n\n<b><color=#00C4FF>Descanso
+        total</color></b>\nDias dedicados ao bom descanso e recupera\xE7\xE3o.\n\n<b><color=#199EF2>Calma</color></b>\nDias
+        calmos e gratificantes.\n\n<b><color=#3D66DD>Ondas</color></b>\nDias com
+        momentos embara\xE7osos.\n\n<b><color=#6328CC>Ru\xEDdo</color></b>\nDias
+        em que momentos ou eventos perturbadores podem ter ocorrido.\n\n<b><color=#7C00BF>Tempestade</color></b>\nDias
+        em que podem ocorrer momentos ou eventos muito dif\xEDceis que podem afetar
+        a sa\xFAde mental."
+    - Language: 6
+      Translate: "<b><size=37>\xBFQu\xE9 es Sea Calendar?</size></b>\n\n\u2022 A
+        veces es muy importante mantener la calma en medio de mucha informaci\xF3n
+        innecesaria y entornos ruidosos. Tales cosas pueden distraer de las cosas
+        principales e interferir con la toma de decisiones calmada.\n\n\u2022 Sea
+        Calendar es un complemento al objetivo principal de la aplicaci\xF3n: ayudarle
+        a alcanzar objetivos a largo plazo o adquirir nuevos h\xE1bitos.\n\n<b><size=37>\xBFC\xF3mo
+        utilizarlo?</size></b>\n\n\u2022 Todos los d\xEDas, puede evaluar la calidad
+        del d\xEDa anterior. Hay 5 categor\xEDas de calificaci\xF3n:<b> <color=#00C4FF>Descanso
+        completo</color>, <color=#199EF2>Calma</color>, <color=#3D66DD>Olas</color>,
+        <color=#6328CC>Ruido</color>, <color=#7C00BF>Tormenta</color>.</b>\nA cada
+        d\xEDa se le puede asignar una de estas categor\xEDas.\n\n\u2022 En el futuro,
+        tendr\xE1 la oportunidad de evaluar cu\xE1nto m\xE1s calmado y eficiente
+        le resulta todo. \nBasado en esto, puede comprender mejor si algo se necesita
+        cambiar.\n\n<b><size=37>La calidad de los d\xEDas</size></b>\n\n<b><color=#00C4FF>Descanso
+        completo</color></b>\nD\xEDas dedicados al buen descanso y la recuperaci\xF3n.\n\n<b><color=#199EF2>Calma</color></b>\nD\xEDas
+        tranquilos y gratificantes.\n\n<b><color=#3D66DD>Olas</color></b>\nD\xEDas
+        con momentos inc\xF3modos.\n\n<b><color=#6328CC>Ruido</color></b>\nD\xEDas
+        en los que pueden haber ocurrido momentos o eventos desagradables.. \n\n<b><color=#7C00BF>Tormenta</color></b>\nD\xEDas
+        en los que pueden ocurrir momentos o eventos muy dif\xEDciles que podr\xEDan
+        afectar la salud mental."
+    - Language: 7
+      Translate: "<b><size=37>Sea Takvimi nedir?</size></b>\n\n\u2022 Bazen bir\xE7ok
+        gereksiz bilgi aras\u0131nda ve g\xFCr\xFClt\xFCl\xFC ortamlarda sakin kalmak
+        \xE7ok \xF6nemlidir. Bu t\xFCr \u015Feyler dikkati as\u0131l \xF6nemli olan
+        konulardan uzakla\u015Ft\u0131rabilir ve sakin karar vermeyi engelleyebilir.\n\n\u2022
+        Sea Takvimi, uygulaman\u0131n ana amac\u0131na bir ektir: uzun d\xF6nem hedeflere
+        ula\u015Fman\u0131za veya yeni al\u0131\u015Fkanl\u0131klar edinmenize yard\u0131mc\u0131
+        olmak i\xE7in tasarlanm\u0131\u015Ft\u0131r.\n\n<b><size=37>Nas\u0131l kullan\u0131l\u0131r?</size></b>\n\n\u2022
+        Her g\xFCn, \xF6nceki g\xFCn\xFCn kalitesini de\u011Ferlendirebilirsiniz.
+        5 derecelendirme kategorisi vard\u0131r:<b> <color=#00C4FF>Tam dinlenme</color>,
+        <color=#199EF2>Sakinlik</color>, <color=#3D66DD>Dalgalar</color>, <color=#6328CC>G\xFCr\xFClt\xFC</color>,
+        <color=#7C00BF>F\u0131rt\u0131na</color>.</b>\nHer g\xFCne bu kategorilerden
+        biri atanabilir.\n\n\u2022 Gelecekte, her \u015Feyin ne kadar sakin ve verimli
+        bir \u015Fekilde ger\xE7ekle\u015Fti\u011Fini de\u011Ferlendirme f\u0131rsat\u0131na
+        sahip olacaks\u0131n\u0131z.\nBu sayede, bir \u015Feyin de\u011Fi\u015Ftirilmesi
+        gerekip gerekmedi\u011Fini daha iyi anlayabilirsiniz.\n\n<b><size=37>G\xFCnlerin
+        kalitesi</size></b>\n\n<b><color=#00C4FF>Tam dinlenme</color></b>\n\u0130yi
+        dinlenmeye ve iyile\u015Fmeye ayr\u0131lm\u0131\u015F g\xFCnler.\n\n<b><color=#199EF2>Sakinlik</color></b>\nSakin
+        ve tatmin edici g\xFCnler.\n\n<b><color=#3D66DD>Dalgalar</color></b>\nRahats\u0131z
+        edici anlar\u0131n oldu\u011Fu g\xFCnler.\n\n<b><color=#6328CC>G\xFCr\xFClt\xFC</color></b>\nRahats\u0131z
+        edici anlar\u0131n veya olaylar\u0131n ya\u015Fanabildi\u011Fi g\xFCnler.\n\n<b><color=#7C00BF>F\u0131rt\u0131na</color></b>\nAk\u0131l
+        sa\u011Fl\u0131\u011F\u0131n\u0131 etkileyebilecek \xE7ok zor anlar\u0131n
+        veya olaylar\u0131n ya\u015Fanabildi\u011Fi g\xFCnler."
+  - Key: Tips/SimilarMarker
+    Items:
+    - Language: 0
+      Translate: 'Such name already exists.
+
+        Try changing the current one.'
+    - Language: 1
+      Translate: "\u0422\u0430\u043A\u043E\u0435 \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u0435
+        \u0443\u0436\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442.\n\u041F\u043E\u043F\u0440\u043E\u0431\u0443\u0439\u0442\u0435
+        \u0438\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0442\u0435\u043A\u0443\u0449\u0435\u0435."
+    - Language: 2
+      Translate: "Ce nom existe d\xE9j\xE0.\r\nEssayez de changer le nom actuel."
+    - Language: 3
+      Translate: "Ein solcher Name existiert bereits.\r\nVersuche, den aktuellen
+        Namen zu \xE4ndern."
+    - Language: 4
+      Translate: "Nome gi\xE0 esistente.\r\nProva a modificare il nome attuale."
+    - Language: 5
+      Translate: "Esse nome j\xE1 existe.\r\nTente alterar o nome atual."
+    - Language: 6
+      Translate: 'Tal nombre ya existe.
+
+        Intente cambiar el nombre actual.'
+    - Language: 7
+      Translate: "B\xF6yle bir isim zaten var.\r\nVarolan ismi de\u011Fi\u015Ftirin."
+  - Key: Tips/TasksLimit
+    Items:
+    - Language: 0
+      Translate: "<b><size=37><color=#6C75D2>Why is the count of tasks limited?</color></size></b>\n\n<b>\u2022</b>
+        The main purpose is to help you keep focus only on the most <b>important
+        tasks</b> and the most <b>important things</b>.\n\n<b>\u2022</b> Such important
+        things as <b>saving time</b> in the app and <b>minimalism</b> were taken.\n\nIf
+        you need to add a new task, you can archive one of the active ones and return
+        it to the progress state when space is available."
+    - Language: 1
+      Translate: "<b><size=37><color=#6C75D2>\u041F\u043E\u0447\u0435\u043C\u0443
+        \u043A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u043E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u043E?</color></size></b>\n\n<b>\u2022</b>
+        \u041E\u0441\u043D\u043E\u0432\u043D\u0430\u044F \u0446\u0435\u043B\u044C
+        - \u043F\u043E\u043C\u043E\u0447\u044C \u0432\u0430\u043C \u0441\u043E\u0441\u0440\u0435\u0434\u043E\u0442\u043E\u0447\u0438\u0442\u044C\u0441\u044F
+        \u0442\u043E\u043B\u044C\u043A\u043E \u043D\u0430 \u0441\u0430\u043C\u044B\u0445
+        <b>\u0432\u0430\u0436\u043D\u044B\u0445 \u0437\u0430\u0434\u0430\u0447\u0430\u0445</b>
+        \u0438 \u0441\u0430\u043C\u044B\u0445 <b>\u0432\u0430\u0436\u043D\u044B\u0445
+        \u0432\u0435\u0449\u0430\u0445</b>.\n\n<b>\u2022</b> \u0411\u044B\u043B\u0438
+        \u0443\u0447\u0442\u0435\u043D\u044B \u0442\u0430\u043A\u0438\u0435 \u0432\u0430\u0436\u043D\u044B\u0435
+        \u0432\u0435\u0449\u0438, \u043A\u0430\u043A <b>\u044D\u043A\u043E\u043D\u043E\u043C\u0438\u044F
+        \u0432\u0440\u0435\u043C\u0435\u043D\u0438</b> \u0432 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0438
+        \u0438 <b>\u043C\u0438\u043D\u0438\u043C\u0430\u043B\u0438\u0437\u043C</b>.\n\n\u0415\u0441\u043B\u0438
+        \u0432\u0430\u043C \u043D\u0443\u0436\u043D\u043E \u0434\u043E\u0431\u0430\u0432\u0438\u0442\u044C
+        \u043D\u043E\u0432\u0443\u044E \u0437\u0430\u0434\u0430\u0447\u0443, \u0432\u044B
+        \u043C\u043E\u0436\u0435\u0442\u0435 \u0437\u0430\u0430\u0440\u0445\u0438\u0432\u0438\u0440\u043E\u0432\u0430\u0442\u044C
+        \u043E\u0434\u043D\u0443 \u0438\u0437 \u0430\u043A\u0442\u0438\u0432\u043D\u044B\u0445
+        \u0438 \u0432\u0435\u0440\u043D\u0443\u0442\u044C \u0435\u0435 \u0432 \u0441\u043E\u0441\u0442\u043E\u044F\u043D\u0438\u0435
+        \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F, \u043A\u043E\u0433\u0434\u0430
+        \u0431\u0443\u0434\u0435\u0442 \u0434\u043E\u0441\u0442\u0443\u043F\u043D\u043E
+        \u043C\u0435\u0441\u0442\u043E."
+    - Language: 2
+      Translate: "<b><size=37><color=#6C75D2>Pourquoi la quantit\xE9 est-elle limit\xE9e?</color></size></b>\n\n<b>\u2022</b>
+        L'objectif principal est de vous aider \xE0 vous concentrer uniquement sur
+        les t\xE2ches les plus importantes et les choses les plus importantes.\n\n<b>\u2022</b>
+        Des \xE9l\xE9ments importants ont \xE9t\xE9 pris en compte tels que le gain
+        de temps dans l'application et le minimalisme.\n\nSi vous avez besoin d'ajouter
+        une nouvelle t\xE2che, vous pouvez archiver l'une des t\xE2ches actives et
+        la remettre \xE0 l'\xE9tat d'ex\xE9cution lorsque l'espace est disponible."
+    - Language: 3
+      Translate: "<b><size=37><color=#6C75D2>Warum ist die Menge begrenzt?</color></size></b>\n\n<b>\u2022</b>
+        Das Hauptziel ist es, dir dabei zu helfen, dich nur auf die wichtigsten Aufgaben
+        und Dinge zu konzentrieren.\n\n<b>\u2022</b> Wichtige Dinge wie Zeitersparnis
+        und Minimalismus wurden in der Anwendung ber\xFCcksichtigt.\n\nWenn du eine
+        neue Aufgabe hinzuf\xFCgen musst, kannst du eine der aktiven Aufgaben archivieren
+        und in den laufenden Zustand zur\xFCckversetzen, wenn wieder Speicherplatz
+        verf\xFCgbar ist."
+    - Language: 4
+      Translate: "<b><size=37><color=#6C75D2>Perch\xE9 la quantit\xE0 \xE8 limitata?</color></size></b>\n\n<b>\u2022</b>
+        L'obiettivo principale \xE8 aiutarti a concentrarti solo sulle attivit\xE0
+        e le cose pi\xF9 importanti.\n\n<b>\u2022</b> Abbiamo preso in considerazione
+        aspetti importanti come il risparmio di tempo nell'utilizzo dell'app e il
+        minimalismo.\n\nSe \xE8 necessario aggiungere una nuova attivit\xE0, \xE8
+        possibile archiviare una di quelle attive e riportarla allo stato attivo
+        quando vi \xE8 spazio disponibile."
+    - Language: 5
+      Translate: "<b><size=37><color=#6C75D2>Porque \xE9 que a quantidade \xE9 limitada?</color></size></b>\n\n<b>\u2022</b>
+        O objetivo principal \xE9 ajud\xE1-lo a concentrar-se apenas nas tarefas
+        mais importantes e nas coisas mais importantes.\n\n<b>\u2022</b> Foram levadas
+        em considera\xE7\xE3o coisas importantes, como economia de tempo na utiliza\xE7\xE3o
+        e minimalismo.\n\nSe precisar de adicionar uma nova tarefa, poder\xE1 arquivar
+        uma das tarefas ativas e restaur\xE1-la para o estado de execu\xE7\xE3o quando
+        houver espa\xE7o dispon\xEDvel."
+    - Language: 6
+      Translate: "<b><size=37><color=#6C75D2>\xBFPor qu\xE9 es limitada la cantidad?</color></size></b>\n\n<b>\u2022</b>
+        El objetivo principal es ayudarle a concentrarse solo en las tareas m\xE1s
+        importantes y las cosas m\xE1s importantes.\n\n<b>\u2022</b> Se tuvieron
+        en cuenta cosas importantes como el ahorro de tiempo en la aplicaci\xF3n
+        y el minimalismo.\n\nSi necesita agregar una nueva tarea, puede archivar
+        una de las activas y devolverla al estado de ejecuci\xF3n cuando haya espacio
+        disponible."
+    - Language: 7
+      Translate: "<b><size=37><color=#6C75D2>G\xF6revler neden s\u0131n\u0131rl\u0131?</color></size></b>\n\n<b>\u2022</b>
+        Ana hedef, yaln\u0131zca en \xF6nemli g\xF6revlere ve en \xF6nemli \u015Feylere
+        odaklanman\u0131za yard\u0131mc\u0131 olmakt\u0131r.\n\n<b>\u2022</b> Uygulamada
+        zaman tasarrufu ve minimalizm gibi \xF6nemli hususlar dikkate al\u0131nm\u0131\u015Ft\u0131r.\n\nYeni
+        bir g\xF6rev eklemeniz gerekiyorsa, aktif olanlardan birini ar\u015Fivleyebilir
+        ve bo\u015F yer oldu\u011Funda tekrar \xE7al\u0131\u015F\u0131r hale getirebilirsiniz."
+  - Key: Tips/TutorialStep1
+    Items:
+    - Language: 0
+      Translate: "<size=53><b><color=#6c75d2>Sea Todo</color></b>\r</size>\n\r\nThis
+        app is designed as a small help for long-term and calm movement towards your
+        goals or acquiring new habits."
+    - Language: 1
+      Translate: "<size=53><b><color=#6c75d2>Sea Todo</color></b>\r</size>\n\r\n\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435
+        \u0431\u044B\u043B\u043E \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0430\u043D\u043E
+        \u043A\u0430\u043A \u043F\u043E\u043C\u043E\u0449\u043D\u0438\u043A \u0434\u043B\u044F
+        \u0434\u043E\u043B\u0433\u043E\u0441\u0440\u043E\u0447\u043D\u043E\u0433\u043E
+        \u0438 \u0441\u043F\u043E\u043A\u043E\u0439\u043D\u043E\u0433\u043E \u0434\u0432\u0438\u0436\u0435\u043D\u0438\u044F
+        \u043A \u0432\u0430\u0448\u0438\u043C \u0446\u0435\u043B\u044F\u043C, \u0438\u043B\u0438
+        \u043F\u0440\u0438\u043E\u0431\u0440\u0435\u0442\u0435\u043D\u0438\u044E
+        \u043D\u043E\u0432\u044B\u0445 \u043F\u0440\u0438\u0432\u044B\u0447\u0435\u043A."
+    - Language: 2
+      Translate: "<size=53><b><color=#6c75d2>Sea Todo</color></b>\r</size>\n\r\nL'application
+        a \xE9t\xE9 con\xE7ue comme un assistant pour un mouvement \xE0 long terme
+        et calme vers vos objectifs, ou l'acquisition de nouvelles habitudes."
+    - Language: 3
+      Translate: "<size=53><b><color=#6c75d2>Sea Todo</color></b>\r</size>\n\r\nDie
+        App wurde als Assistent f\xFCr die langfristige und ruhige Bewegung in Richtung
+        deiner Ziele oder den Erwerb neuer Gewohnheiten entwickelt."
+    - Language: 4
+      Translate: "<size=53><b><color=#6c75d2>Sea Todo</color></b>\r</size>\n\r\nL'app
+        \xE8 stata progettata come assistente per procedere con calma e a lungo termine
+        verso i tuoi obiettivi o nell'acquisizione di nuove abitudini."
+    - Language: 5
+      Translate: "<size=53><b><color=#6c75d2>Sea Todo</color></b>\r</size>\n\r\nA
+        aplica\xE7\xE3o foi desenvolvida como um assistente para movimentos calmos
+        e de longo prazo em dire\xE7\xE3o aos seus objetivos, ou \xE0 aquisi\xE7\xE3o
+        de novos h\xE1bitos."
+    - Language: 6
+      Translate: "<size=53><b><color=#6c75d2>Sea Todo</color></b>\r</size>\n\r\nLa
+        aplicaci\xF3n ha sido dise\xF1ada como asistente para el movimiento a largo
+        plazo y tranquilo hacia sus objetivos, o la adquisici\xF3n de nuevos h\xE1bitos."
+    - Language: 7
+      Translate: "<size=53><b><color=#6c75d2>Sea Todo</color></b>\r</size>\n\r\nUygulama,
+        hedeflerinize do\u011Fru uzun d\xF6nemli ve sakin ilerleyi\u015F ve yeni
+        al\u0131\u015Fkanl\u0131klar\u0131n kazan\u0131lmas\u0131 i\xE7in bir asistan
+        olarak tasarlanm\u0131\u015Ft\u0131r."
+  - Key: Tips/TutorialStep1Star
+    Items:
+    - Language: 0
+      Translate: No Ads
+    - Language: 1
+      Translate: "\u0411\u0435\u0437 \u0440\u0435\u043A\u043B\u0430\u043C\u044B"
+    - Language: 2
+      Translate: "Sans publicit\xE9"
+    - Language: 3
+      Translate: Ohne Werbung
+    - Language: 4
+      Translate: "Senza pubblicit\xE0"
+    - Language: 5
+      Translate: Sem publicidade
+    - Language: 6
+      Translate: Sin publicidad
+    - Language: 7
+      Translate: "Reklams\u0131z"
+  - Key: Tips/TutorialStep1StarDescription
+    Items:
+    - Language: 0
+      Translate: free using
+    - Language: 1
+      Translate: "\u0431\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u043E\u0435 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435"
+    - Language: 2
+      Translate: utilisation gratuite
+    - Language: 3
+      Translate: kostenlose Nutzung
+    - Language: 4
+      Translate: utilizzo gratuito
+    - Language: 5
+      Translate: "utiliza\xE7\xE3o gratuita"
+    - Language: 6
+      Translate: uso libre
+    - Language: 7
+      Translate: "\xFCcretsiz kullan\u0131m"
+  - Key: Tips/TutorialStep2
+    Items:
+    - Language: 0
+      Translate: "<size=53><b><color=#6c75d2>Tasks</color></b>\r</size>\n\nYou can
+        create long-term goals\r or \rhabits\r and track your progress each day.
+        You can view statistics and a calculated finish date for each task."
+    - Language: 1
+      Translate: "<size=53><b><color=#6c75d2>\u0417\u0430\u0434\u0430\u0447\u0438</color></b>\r</size>\n\n\u0412\u044B
+        \u043C\u043E\u0436\u0435\u0442\u0435 \u0441\u043E\u0437\u0434\u0430\u0432\u0430\u0442\u044C
+        \u0434\u043E\u043B\u0433\u043E\u0441\u0440\u043E\u043D\u044B\u0435 \u0437\u0430\u0434\u0430\u0447\u0438\r
+        \u0438\u043B\u0438 \r\u043F\u0440\u0438\u0432\u044B\u0447\u043A\u0438,\r
+        \u0438 \u043E\u0442\u043C\u0435\u0447\u0430\u0442\u044C \u043F\u0440\u043E\u0433\u0440\u0435\u0441\u0441
+        \u0432 \u0434\u043D\u0438 \u0438\u0445 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F.
+        \u0414\u043B\u044F \u043A\u0430\u0436\u0434\u043E\u0439 \u0437\u0430\u0434\u0430\u0447\u0438
+        \u0434\u0438\u043D\u0430\u043C\u0438\u0447\u0435\u0441\u043A\u0438 \u0440\u0430\u0441\u0441\u0447\u0438\u0442\u044B\u0432\u0430\u0435\u0442\u0441\u044F
+        \u0434\u0430\u0442\u0430 \u043E\u043A\u043E\u043D\u0447\u0430\u043D\u0438\u044F."
+    - Language: 2
+      Translate: "<size=53><b><color=#6c75d2>T\xE2ches\r</color></b>\r</size>\n\nVous
+        pouvez cr\xE9er des t\xE2ches ou des habitudes durables et suivre les progr\xE8s
+        les jours o\xF9 vous les terminez. La date de fin est calcul\xE9e dynamiquement
+        pour chaque t\xE2che."
+    - Language: 3
+      Translate: "<size=53><b><color=#6c75d2>Aufgaben</color></b>\r</size>\n\nDu
+        kannst dauerhafte Aufgaben oder Gewohnheiten erstellen und den Fortschritt
+        an den Tagen verfolgen, an denen du diese erledigst. Das Enddatum wird f\xFCr
+        jede Aufgabe dynamisch berechnet."
+    - Language: 4
+      Translate: "<size=53><b><color=#6c75d2>Compiti</color></b>\r</size>\n\n\xC8
+        possibile creare attivit\xE0 o abitudini di lunga durata e tenere traccia
+        dei progressi nei giorni in cui vengono completate. La data di termine viene
+        calcolata in modo dinamico per ogni attivit\xE0."
+    - Language: 5
+      Translate: "<size=53><b><color=#6c75d2>Tarefas</color></b>\r</size>\n\nVoc\xEA
+        pode criar tarefas ou h\xE1bitos permanentes e acompanhar o progresso nos
+        dias em que os completa. A data final \xE9 calculada dinamicamente para cada
+        tarefa."
+    - Language: 6
+      Translate: "<size=53><b><color=#6c75d2>Tareas</color></b>\r</size>\n\nPuede
+        crear tareas o h\xE1bitos duraderos y realizar un seguimiento del progreso
+        los d\xEDas que los complete. La fecha de finalizaci\xF3n se calcula din\xE1micamente
+        para cada tarea."
+    - Language: 7
+      Translate: "<size=53><b><color=#6c75d2>G\xF6revler</color></b>\r</size>\n\nKal\u0131c\u0131
+        g\xF6revler veya al\u0131\u015Fkanl\u0131klar olu\u015Fturabilir ve bunlar\u0131
+        tamamlad\u0131\u011F\u0131n\u0131z g\xFCnlerde ilerlemeyi izleyebilirsiniz.
+        Biti\u015F tarihi, her g\xF6rev i\xE7in dinamik olarak hesaplan\u0131r."
+  - Key: Tips/TutorialStep2Star
+    Items:
+    - Language: 0
+      Translate: Minimalism
+    - Language: 1
+      Translate: "\u041C\u0438\u043D\u0438\u043C\u0430\u043B\u0438\u0437\u043C"
+    - Language: 2
+      Translate: "Minimalisme\r"
+    - Language: 3
+      Translate: Minimalismus
+    - Language: 4
+      Translate: Minimalismo
+    - Language: 5
+      Translate: Minimalismo
+    - Language: 6
+      Translate: Minimalismo
+    - Language: 7
+      Translate: Minimalizm
+  - Key: Tips/TutorialStep2StarDescription
+    Items:
+    - Language: 0
+      Translate: save your time
+    - Language: 1
+      Translate: "\u044D\u043A\u043E\u043D\u043E\u043C\u0438\u044F \u0432\u0440\u0435\u043C\u0435\u043D\u0438"
+    - Language: 2
+      Translate: gagner du temps
+    - Language: 3
+      Translate: um Zeit zu sparen
+    - Language: 4
+      Translate: per risparmiare tempo
+    - Language: 5
+      Translate: poupar tempo
+    - Language: 6
+      Translate: ahorrando tiempo
+    - Language: 7
+      Translate: "zaman tasarrufu i\xE7in"
+  - Key: Tips/TutorialStep3
+    Items:
+    - Language: 0
+      Translate: "<size=53><b><color=#6c75d2>Sea calendar</color></b>\r</size>\n\r\nEach
+        day can be assessed by the degree of calm. While using the calendar, you
+        will be able to clearly see how calm and high-quality everything turns out."
+    - Language: 1
+      Translate: "<size=53><b><color=#6c75d2>Sea \u043A\u0430\u043B\u0435\u043D\u0434\u0430\u0440\u044C</color></b>\r</size>\n\r\n\u041A\u0430\u0436\u0434\u044B\u0439
+        \u0434\u0435\u043D\u044C \u043C\u043E\u0436\u043D\u043E \u043E\u0446\u0435\u043D\u0438\u0442\u044C
+        \u043F\u043E \u0441\u0442\u0435\u043F\u0435\u043D\u0438 \u0441\u043F\u043E\u043A\u043E\u0439\u0441\u0442\u0432\u0438\u044F.
+        \u0412\u043E \u0432\u0440\u0435\u043C\u044F \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F
+        \u043A\u0430\u043B\u0435\u043D\u0434\u0430\u0440\u044F \u0443 \u0432\u0430\u0441
+        \u043F\u043E\u044F\u0432\u0438\u0442\u0441\u044F \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u044C
+        \u043D\u0430\u0433\u043B\u044F\u0434\u043D\u043E \u0443\u0432\u0438\u0434\u0435\u0442\u044C
+        \u043D\u0430\u0441\u043A\u043E\u043B\u044C\u043A\u043E \u0441\u043F\u043E\u043A\u043E\u0439\u043D\u043E
+        \u0438 \u043A\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u043E
+        \u0432\u0441\u0435 \u043F\u043E\u043B\u0443\u0447\u0430\u0435\u0442\u0441\u044F."
+    - Language: 2
+      Translate: "<size=53><b><color=#6c75d2>Calendrier Sea\r</color></b>\r</size>\n\r\nChaque
+        jour peut \xEAtre jug\xE9 par le degr\xE9 de calme. En utilisant le calendrier,
+        vous aurez l'occasion de voir clairement \xE0 quel point tout se passe calmement
+        et efficacement."
+    - Language: 3
+      Translate: "<size=53><b><color=#6c75d2>Sea Kalender</color></b>\r</size>\n\r\nJeder
+        Tag kann nach dem Grad der Ruhe beurteilt werden. W\xE4hrend du den Kalender
+        verwendest, hast du die M\xF6glichkeit, deutlich zu sehen, wie ruhig und
+        effizient sich alles entwickelt."
+    - Language: 4
+      Translate: "<size=53><b><color=#6c75d2>Calendario Sea</color></b>\r</size>\n\r\nOgni
+        giorno pu\xF2 essere giudicato dal grado di calma. Durante l'utilizzo del
+        calendario, avrai la possibilit\xE0 di vedere chiaramente come tutto procede
+        con calma ed efficienza."
+    - Language: 5
+      Translate: "<size=53><b><color=#6c75d2>Calend\xE1rio Sea</color></b>\r</size>\n\r\nCada
+        dia pode ser julgado pelo grau de descanso. Ao utilizar o calend\xE1rio,
+        ter\xE1 a oportunidade de ver claramente como tudo \xE9 calmo e eficiente."
+    - Language: 6
+      Translate: "<size=53><b><color=#6c75d2>Sea Calendar</color></b>\r</size>\n\r\nCada
+        d\xEDa puede juzgarse por el grado de calma. Mientras usa el calendario,
+        tendr\xE1 la oportunidad de ver con claridad cu\xE1nto m\xE1s tranquilo y
+        eficiente resulta todo."
+    - Language: 7
+      Translate: "<size=53><b><color=#6c75d2>Sea takvimi</color></b>\r</size>\n\r\nHer
+        g\xFCn, sakinlik derecesi ile de\u011Ferlendirilebilir. Takvimi kullan\u0131rken,
+        her \u015Feyin ne kadar sakin ve verimli bir \u015Fekilde ilerledi\u011Fini
+        a\xE7\u0131k\xE7a g\xF6rme imkan\u0131na sahip olacaks\u0131n\u0131z."
+  - Key: Tips/TutorialStep3Star
+    Items:
+    - Language: 0
+      Translate: Focus
+    - Language: 1
+      Translate: "\u0424\u043E\u043A\u0443\u0441"
+    - Language: 2
+      Translate: Focus
+    - Language: 3
+      Translate: Fokus
+    - Language: 4
+      Translate: Focus
+    - Language: 5
+      Translate: Foco
+    - Language: 6
+      Translate: Enfoque
+    - Language: 7
+      Translate: Odak
+  - Key: Tips/TutorialStep3StarDescription
+    Items:
+    - Language: 0
+      Translate: mental health
+    - Language: 1
+      Translate: "\u043C\u0435\u043D\u0442\u0430\u043B\u044C\u043D\u043E\u0435 \u0437\u0434\u043E\u0440\u043E\u0432\u044C\u0435"
+    - Language: 2
+      Translate: "sant\xE9 mentale"
+    - Language: 3
+      Translate: psychische Gesundheit
+    - Language: 4
+      Translate: benessere mentale
+    - Language: 5
+      Translate: "sa\xFAde mental"
+    - Language: 6
+      Translate: salud mental
+    - Language: 7
+      Translate: "zihinsel sa\u011Fl\u0131k"
+  - Key: Tips/TutorialStep4
+    Items:
+    - Language: 0
+      Translate: <color=#6c75d2>Start</color>
+    - Language: 1
+      Translate: "<color=#6c75d2>\u041D\u0430\u0447\u0430\u0442\u044C</color>"
+    - Language: 2
+      Translate: <color=#6c75d2>Pour commencer</color>
+    - Language: 3
+      Translate: <color=#6c75d2>Zu Beginn</color>
+    - Language: 4
+      Translate: <color=#6c75d2>Iniziare</color>
+    - Language: 5
+      Translate: "<color=#6c75d2>Para come\xE7ar</color>"
+    - Language: 6
+      Translate: <color=#6c75d2>Empezar</color>
+    - Language: 7
+      Translate: "<color=#6c75d2>Ba\u015Flamak i\xE7in</color>"
